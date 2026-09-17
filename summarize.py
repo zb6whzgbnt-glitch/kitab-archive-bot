@@ -1285,25 +1285,6 @@ def _strip_moral_tail(text: str) -> str:
 
 
 
-_STORY_CLOSE_HINTS = (
-    "تنتهي النادرة", "انتهت النادرة", "انقضت الحكاية", "انتهت الحكاية",
-    "تمت الحكاية", "تمت القصة", "وهنا تنتهي", "وهكذا انقضت",
-    "إلى هنا تنتهي", "انتهى الحديث", "انتهى المجلس",
-)
-
-
-def ensure_story_closing(text: str) -> str:
-    """Append a short closing line that signals the tale has ended, if missing."""
-    body = (text or "").strip()
-    if not body:
-        return body
-    tail = body[-220:].replace("ً", "").replace("ٌ", "").replace("ٍ", "")
-    if any(h in tail for h in _STORY_CLOSE_HINTS) or any(
-        h in tail for h in ("انتهت", "تمت الحكاية", "تمت القصة", "وانتهت")
-    ):
-        return body
-    closing = "وهنا تنتهي النادرة."
-    return body.rstrip() + "\n\n" + closing
 
 
 def bare_letter_count(text: str) -> int:
@@ -1622,7 +1603,6 @@ def build_folk_story(
     body = body.replace("\u0640", "")  # tatweel
     # Drop moral/epilogue tails if model added them
     body = _strip_moral_tail(body)
-    body = ensure_story_closing(body)
     bare_before = bare_letter_count(body)
     if bare_before > 7800:
         body = trim_to_bare_letters(body, 7800)
