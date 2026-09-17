@@ -10,6 +10,7 @@ import sys
 
 from dotenv import load_dotenv
 from telegram import Bot
+from telegram.error import BadRequest, Forbidden
 
 load_dotenv()
 
@@ -27,7 +28,14 @@ async def run() -> None:
     _bootstrap_subscribers()
     token = _token()
     me = validate_token(token)
-    log.info("token ok bot=@%s id=%s", me.get("username") or "", me.get("id"))
+    username = me.get("username") or ""
+    log.info("token ok bot=@%s id=%s", username, me.get("id"))
+    expected = (os.getenv("EXPECTED_BOT_USERNAME") or "Bot4ttobot").lstrip("@")
+    if expected and username and username.lower() != expected.lower():
+        raise SystemExit(
+            f"Wrong Telegram bot token: got @{username}, expected @{expected}. "
+            "Update TELEGRAM_BOT_TOKEN secret."
+        )
 
     payload = await asyncio.to_thread(prepare_story, True)
     chats = state.subscribers()
@@ -41,19 +49,36 @@ async def run() -> None:
         return
 
     bot = Bot(token)
+    ok = 0
+    failed = 0
     async with bot:
         for chat_id in chats:
             try:
                 await deliver(bot, chat_id, payload)
                 log.info("delivered chat_id=%s", chat_id)
+                ok += 1
+            except (BadRequest, Forbidden) as exc:
+                failed += 1
+                log.warning("skip chat_id=%s err=%s", chat_id, exc)
+                # Drop dead chats so future runs stay clean
+                try:
+                    state.unsubscribe(chat_id)
+                except Exception:
+                    pass
             except Exception:
+                failed += 1
                 log.exception("deliver failed chat_id=%s", chat_id)
-                raise
+
+    log.info("done ok=%s failed=%s", ok, failed)
+    if ok == 0:
+        raise SystemExit("No successful deliveries")
 
 
 def main() -> None:
     try:
         asyncio.run(run())
+    except SystemExit:
+        raise
     except Exception:
         log.exception("run_once failed")
         sys.exit(1)
