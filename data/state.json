@@ -1,0 +1,62 @@
+{
+  "subscribers": [
+    8581434211,
+    8415608677
+  ],
+  "used_stories": [
+    "Alf-Layla-Cairo#0",
+    "grimmsfairytales00grim#0",
+    "saeedk86_gmail_20170812#0",
+    "zhiv_star#0",
+    "saeedk86_gmail_20170812#1",
+    "Alf-Layla-Cairo#1",
+    "grimmsfairytales00grim#1",
+    "zhiv_star#1",
+    "Alf-Layla-Cairo#2",
+    "zhiv_star#2",
+    "saeedk86_gmail_20170812#2",
+    "Alf-Layla-Cairo#3",
+    "AsatterSha3byhG4#0"
+  ],
+  "last_story": {
+    "date": "2026-09-08",
+    "identifier": "AsatterSha3byhG4",
+    "story_index": 0,
+    "title": "جوزاء وحصان أخيها",
+    "key": "AsatterSha3byhG4#0"
+  },
+  "language_cycle_index": 0,
+  "used_arabic": [
+    "kalila-wa-dimna-arabic-text",
+    "Alf-Layla-Cairo",
+    "a1249n",
+    "alhelawy07",
+    "123boukrika44_maktoob_20140109_2134",
+    "grimmsfairytales00grim",
+    "saeedk86_gmail_20170812",
+    "zhiv_star",
+    "AsatterSha3byhG4"
+  ],
+  "used_english": [
+    "treasureisland00stevrich",
+    "the-apothecary-diaries-light-novel-series",
+    "AntonioGramsciSelectionsFromThePrisonNotebooks",
+    "thus-spoke-zarathustra",
+    "FriedrichNietzscheTheWillToPower",
+    "diaryofawimpykidbookseriesbyjeffkinney_202004",
+    "indiancasesvollx029741mbp",
+    "invincible-compendiums",
+    "pg1661",
+    "TheArtOfWarBySunTzu"
+  ],
+  "arabic": {
+    "date": "2026-09-05",
+    "identifier": "123boukrika44_maktoob_20140109_2134",
+    "title": "ألف ليلة وليلة كاملة"
+  },
+  "english": {
+    "date": "2026-09-04",
+    "identifier": "pg1661",
+    "title": "pg1661"
+  }
+}

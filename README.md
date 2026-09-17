@@ -76,3 +76,25 @@ docker compose up --build
 - الحالة تُحفظ في `data/state.json` (معرّفات المحادثات، الكتاب الحالي، رقم الحلقة).
 - الملفات الصوتية/الفيديو في `data/audio/` و `data/video/` والنصوص المخزّنة في `data/books/` وملف `.env` كلها خارج git.
 - الفيديو: بطاقة عنوان عربية 1920×1080 + صوت `ar-SA-ZariyahNeural` (احتياطي `ar-SA-HamedNeural`) عبر `edge-tts` ثم `ffmpeg`. يُرسَل كفيديو واحد، لا ملف MP3 منفصل.
+
+
+## GitHub Actions hosting
+
+Scheduled delivery (Asia/Riyadh): **08:00 / 12:00 / 16:00 / 20:00** via `.github/workflows/deliver-story.yml`.
+
+Manual run: GitHub → Actions → **Deliver story** → Run workflow.
+
+Required repository secrets:
+- `TELEGRAM_BOT_TOKEN`
+- `GEMINI_API_KEY` (legacy fallback)
+- `GEMINI_STORY_API_KEY`
+- `GEMINI_TASHKEEL_API_KEY`
+- `GEMINI_API_KEY_2` (optional)
+- `BOOTSTRAP_SUBSCRIBERS` (e.g. `8581434211,8415608677`)
+
+Notes:
+- Actions is **not** always-on: Telegram commands like `/now` and `/gemini` do not work on this hosting mode.
+- `data/state.json` is committed after each run so used-stories / subscribers persist.
+- Stop any Railway/local polling instance to avoid Telegram `getUpdates` Conflict.
+
+الاستضافة على GitHub Actions: قصص مجدولة أربع مرات يومياً + تشغيل يدوي. أوامر تيليجرام التفاعلية غير متاحة في هذا الوضع.

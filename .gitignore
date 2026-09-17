@@ -11,11 +11,10 @@ __pycache__/
 data/audio/
 data/video/
 data/books/
-data/state.json
-data/*.json
 !data/.gitkeep
 *.mp3
 *.mp4
 .DS_Store
 data/stories/
 .railway
+!data/state.json

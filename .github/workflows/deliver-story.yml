@@ -1,0 +1,59 @@
+name: Deliver story
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 08:00, 12:00, 16:00, 20:00 Asia/Riyadh (UTC+3)
+    - cron: "0 5 * * *"
+    - cron: "0 9 * * *"
+    - cron: "0 13 * * *"
+    - cron: "0 17 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deliver-story
+  cancel-in-progress: false
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run one-shot delivery
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_STORY_API_KEY: ${{ secrets.GEMINI_STORY_API_KEY }}
+          GEMINI_TASHKEEL_API_KEY: ${{ secrets.GEMINI_TASHKEEL_API_KEY }}
+          GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          BOOTSTRAP_SUBSCRIBERS: ${{ secrets.BOOTSTRAP_SUBSCRIBERS }}
+          LOG_LEVEL: INFO
+        run: python run_once.py
+
+      - name: Persist state.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          if git diff --staged --quiet; then
+            echo "No state changes"
+            exit 0
+          fi
+          git commit -m "chore: update delivery state after Actions run"
+          git push
