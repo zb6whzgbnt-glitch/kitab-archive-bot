@@ -16,16 +16,22 @@
     "zhiv_star#2",
     "saeedk86_gmail_20170812#2",
     "Alf-Layla-Cairo#3",
-    "AsatterSha3byhG4#0"
+    "AsatterSha3byhG4#0",
+    "englishjestsanda49370gut#1"
+  ],
+  "used_titles": [
+    "الرسامالأبيوالدوقالمتكبر"
   ],
   "last_story": {
-    "date": "2026-09-08",
-    "identifier": "AsatterSha3byhG4",
-    "story_index": 0,
-    "title": "جوزاء وحصان أخيها",
-    "key": "AsatterSha3byhG4#0"
+    "date": "2026-09-17",
+    "identifier": "englishjestsanda49370gut",
+    "story_index": 1,
+    "title": "الرسام الأبي والدوق المتكبر",
+    "key": "englishjestsanda49370gut#1",
+    "title_fp": "الرسامالأبيوالدوقالمتكبر"
   },
   "language_cycle_index": 0,
+  "fish_voice_gender": "male",
   "used_arabic": [
     "kalila-wa-dimna-arabic-text",
     "Alf-Layla-Cairo",
@@ -35,7 +41,8 @@
     "grimmsfairytales00grim",
     "saeedk86_gmail_20170812",
     "zhiv_star",
-    "AsatterSha3byhG4"
+    "AsatterSha3byhG4",
+    "englishjestsanda49370gut"
   ],
   "used_english": [
     "treasureisland00stevrich",
