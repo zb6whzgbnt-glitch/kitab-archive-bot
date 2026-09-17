@@ -20,21 +20,23 @@
     "englishjestsanda49370gut#1",
     "englishjestsanda49370gut#2",
     "englishjestsanda49370gut#3",
-    "englishjestsanda49370gut#4"
+    "englishjestsanda49370gut#4",
+    "englishjestsanda49370gut#5"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
     "لماذا،قالآخر،علىالبعضإذنأنيتصرفواكبقيةالأطفالفحسب،و",
     "قائدالسفينةوالقطذوالذيولالتسعة",
-    "إنمجردطرازهقدكلفنيخمسةجنيهاتفقالآه"
+    "إنمجردطرازهقدكلفنيخمسةجنيهاتفقالآه",
+    "فيلحظةسرقتهإياه،صادفأنالملك"
   ],
   "last_story": {
     "date": "2026-09-17",
     "identifier": "englishjestsanda49370gut",
-    "story_index": 4,
-    "title": "إن مجرد طرازه قد كلفني خمسة جنيهات! فقال: آه",
-    "key": "englishjestsanda49370gut#4",
-    "title_fp": "إنمجردطرازهقدكلفنيخمسةجنيهاتفقالآه"
+    "story_index": 5,
+    "title": "في لحظة سرقته إياه، صادف أن الملك",
+    "key": "englishjestsanda49370gut#5",
+    "title_fp": "فيلحظةسرقتهإياه،صادفأنالملك"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
