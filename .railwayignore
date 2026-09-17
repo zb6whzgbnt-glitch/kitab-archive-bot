@@ -1,0 +1,13 @@
+.venv/
+venv/
+data/
+__pycache__/
+*.pyc
+*.log
+.env
+.env.*
+*.mp3
+*.wav
+*.mp4
+.git/
+nohup.out

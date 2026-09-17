@@ -1,0 +1,17 @@
+.venv
+venv
+__pycache__
+**/__pycache__
+*.pyc
+.git
+.gitignore
+data
+data/**
+*.log
+.env
+.env.*
+*.mp3
+*.wav
+*.mp4
+nohup.out
+.pytest_cache
