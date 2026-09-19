@@ -28,7 +28,8 @@
     "englishjestsanda49370gut#9",
     "englishjestsanda49370gut#10",
     "englishjestsanda49370gut#11",
-    "englishjestsanda49370gut#12"
+    "englishjestsanda49370gut#12",
+    "englishjestsanda49370gut#13"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -42,15 +43,16 @@
     "السيرويلياموالوزيراللوذعي",
     "بائعالجبنوبائعالتبغ،اللذانربماكاناأكثراعتدادابال",
     "البخيلوالضيف",
-    "لاشيءعلىوجهالخصوصياسيدي،قالالعليل،سوىأنكلمايتعلقبي"
+    "لاشيءعلىوجهالخصوصياسيدي،قالالعليل،سوىأنكلمايتعلقبي",
+    "ولكنلمتسألنيعماأختارللعشاء؟"
   ],
   "last_story": {
     "date": "2026-09-19",
     "identifier": "englishjestsanda49370gut",
-    "story_index": 12,
-    "title": "\"لا شيء على وجه الخصوص يا سيدي،\" قال العليل، \"سوى أن كل ما يتعلق بي...\"",
-    "key": "englishjestsanda49370gut#12",
-    "title_fp": "لاشيءعلىوجهالخصوصياسيدي،قالالعليل،سوىأنكلمايتعلقبي"
+    "story_index": 13,
+    "title": "ولكن لمَ تسألني عما أختار للعشاء؟",
+    "key": "englishjestsanda49370gut#13",
+    "title_fp": "ولكنلمتسألنيعماأختارللعشاء؟"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
