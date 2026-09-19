@@ -47,6 +47,7 @@ jobs:
           GEMINI_STORY_API_KEY: ${{ secrets.GEMINI_STORY_API_KEY }}
           GEMINI_TASHKEEL_API_KEY: ${{ secrets.GEMINI_TASHKEEL_API_KEY }}
           GEMINI_API_KEY_2: ${{ secrets.GEMINI_API_KEY_2 }}
+          COHERE_API_KEY: ${{ secrets.COHERE_API_KEY }}
           BOOTSTRAP_SUBSCRIBERS: ${{ secrets.BOOTSTRAP_SUBSCRIBERS }}
           LOG_LEVEL: INFO
         run: python run_once.py

@@ -329,8 +329,10 @@ def _redact_secrets(text: str) -> str:
         "GEMINI_TASHKEEL_API_KEY",
         "GEMINI_API_KEY_2",
         "GEMINI_API_KEY_3",
+        "COHERE_API_KEY",
         "TELEGRAM_BOT_TOKEN",
         "OPENAI_API_KEY",
+        "DEEPSEEK_API_KEY",
     ):
         val = (os.getenv(env_name) or "").strip()
         if val:
@@ -1871,6 +1873,166 @@ def _vocalize_one_chunk(plain_chunk: str, title: str, chunk_i: int, chunk_n: int
         chunk_i, chunk_n, len(tweets), bare_in, bare_letter_count("\n".join(tweets)), reason,
     )
     return tweets
+
+
+
+
+def _cohere_api_key() -> str:
+    return (os.getenv("COHERE_API_KEY") or "").strip()
+
+
+def _cohere_chat(prompt: str, *, max_tokens: int = 8192, temperature: float = 0.35) -> str:
+    """Call Cohere Chat API v2. Raises SummarizeError on failure."""
+    import urllib.error
+    import urllib.request
+
+    api_key = _cohere_api_key()
+    if not api_key:
+        raise SummarizeError("COHERE_API_KEY missing")
+    models = [
+        (os.getenv("COHERE_REVIEW_MODEL") or "").strip() or "command-a-03-2025",
+        "command-r-plus",
+        "command-r",
+        "command",
+    ]
+    # dedupe
+    seen = set()
+    order = []
+    for m in models:
+        if m and m not in seen:
+            seen.add(m)
+            order.append(m)
+    last_err = ""
+    for model in order:
+        payload = {
+            "model": model,
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+            "max_tokens": max_tokens,
+        }
+        data = json.dumps(payload).encode("utf-8")
+        req = urllib.request.Request(
+            "https://api.cohere.com/v2/chat",
+            data=data,
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {api_key}",
+                "Accept": "application/json",
+            },
+            method="POST",
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=180) as resp:
+                body = json.loads(resp.read().decode("utf-8"))
+        except urllib.error.HTTPError as exc:
+            raw = ""
+            try:
+                raw = exc.read().decode("utf-8", errors="replace")[:400]
+            except Exception:
+                pass
+            last_err = _redact_secrets(f"HTTP {exc.code}: {raw}")
+            log.warning("cohere HTTP %s model=%s body=%s", exc.code, model, last_err[:200])
+            continue
+        except Exception as exc:  # noqa: BLE001
+            last_err = _redact_secrets(str(exc))[:240]
+            log.warning("cohere request failed model=%s: %s", model, last_err)
+            continue
+        msg = body.get("message") or {}
+        content = msg.get("content") or []
+        text = ""
+        if isinstance(content, list):
+            for part in content:
+                if isinstance(part, dict) and part.get("type") == "text":
+                    text += part.get("text") or ""
+                elif isinstance(part, str):
+                    text += part
+        elif isinstance(content, str):
+            text = content
+        text = (text or body.get("text") or "").strip()
+        if text:
+            log.info("cohere ok model=%s chars=%s", model, len(text))
+            return text
+        last_err = "empty response"
+        log.warning("cohere empty model=%s", model)
+    raise SummarizeError(f"تعذّر إخراج المراجعة عبر Cohere: {last_err}")
+
+
+def review_finalize_story(text: str, title: str = "", source_label: str = "") -> tuple[str, str]:
+    """Cohere review pass: attractive title + professional final Arabic body.
+
+    Returns (final_title, final_body). Does not add a code-made closing; the model must.
+    """
+    raw = sanitize_for_speech(text or "").strip()
+    if not raw:
+        return (title or "نادرة", "")
+    if not _cohere_api_key():
+        log.warning("COHERE_API_KEY missing; skipping review finalize")
+        return ((title or "نادرة").strip(), raw)
+
+    # Drop leading duplicate title line for cleaner review input
+    body = raw
+    t0 = (title or "").strip()
+    if t0 and body.lstrip().startswith(t0):
+        body = body.lstrip()[len(t0):].lstrip()
+
+    prompt = (
+        "أنت محرر أدبي عربي محترف لنوادر وحكايات مرحة.\n"
+        "المطلوب: راجع النص التالي، حسّن سلاسته وإيقاعه دون تغيير المعنى أو الأحداث أو الشخصيات، "
+        "واختر عنواناً جذاباً قصيراً يسمّي الموقف أو الشخصية (ممنوع اسم الكتاب أو عنوان عام).\n"
+        "أخرج إخراجاً نهائياً جاهزاً للقراءة والاستماع:\n"
+        "- العربية الفصحى الأدبية الواضحة، بدون تشكيل.\n"
+        "- بدون ماركداون وبدون نجوم وبدون عناوين #.\n"
+        "- بدون عبرة وعظية ختامية؛ لكن اختم بجملة قصيرة من عندك توحي أن القصة انتهت فعلاً "
+        "(مثل «وهنا تنتهي النادرة.») بعد اكتمال الأحداث.\n"
+        "- لا تلخّص ولا تحذف مشاهد مهمة؛ أبقِ الطول قريباً من الأصل.\n"
+        "- لا لاتينية في الجسم.\n"
+        "صيغة الناتج حرفياً:\n"
+        "العنوان: (عنوان جذاب)\n"
+        "ثم سطر فارغ\n"
+        "ثم نص القصة الكامل من البداية للنهاية مع الخاتمة القصيرة.\n\n"
+        f"عنوان سابق مقترح: {t0 or '—'}\n"
+        f"المصدر: {(source_label or '').strip() or '—'}\n\n"
+        f"النص:\n{body}"
+    )
+    try:
+        out = _cohere_chat(prompt, max_tokens=10000, temperature=0.35)
+    except Exception as exc:  # noqa: BLE001
+        log.warning("review_finalize_story failed: %s", _redact_secrets(str(exc))[:200])
+        return (t0 or "نادرة", raw)
+
+    cleaned = sanitize_for_speech(out)
+    lines = cleaned.splitlines()
+    final_title = t0 or "نادرة"
+    start = 0
+    if lines:
+        m = TITLE_LINE_RE.match(lines[0].strip())
+        if m:
+            parsed = sanitize_for_speech(m.group(1).strip())
+            if parsed and len(parsed) >= 4:
+                final_title = parsed
+            start = 1
+            while start < len(lines) and not lines[start].strip():
+                start += 1
+        elif len(lines[0].strip()) <= 80 and not lines[0].strip().endswith((".", "۔", "!", "؟")):
+            # bare title line
+            cand = lines[0].strip()
+            if cand and len(cand) >= 4:
+                final_title = cand
+                start = 1
+                while start < len(lines) and not lines[start].strip():
+                    start += 1
+    final_body = "\n".join(lines[start:]).strip() or cleaned
+    if final_title and final_body.lstrip().startswith(final_title):
+        final_body = final_body.lstrip()[len(final_title):].lstrip()
+    # Re-attach title at top for downstream consistency
+    if final_title and not final_body.lstrip().startswith(final_title):
+        final_body = f"{final_title}\n\n{final_body}"
+    final_title = ensure_arabic_title(final_title) if final_title else "نادرة"
+    log.info(
+        "cohere review ready title=%s chars=%s",
+        final_title[:60], len(final_body),
+    )
+    return final_title, final_body
 
 
 def vocalize_and_split_tweets(text: str, title: str = "") -> list[str]:

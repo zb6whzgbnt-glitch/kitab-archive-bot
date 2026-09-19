@@ -181,11 +181,42 @@ def prepare_story(advance_cycle: bool = True) -> dict:
             state.mark_story_used(ident, idx, title=f"[skipped-generic-title] {title}"[:80])
             used.add(key)
             continue
-        # Anti-repeat part 2: title fingerprint
+        # Anti-repeat part 2: title fingerprint (pre-review)
         title_fp = state.title_fingerprint(title)
         if title_fp and title_fp in used_titles:
             log.warning(
                 "duplicate Arabic title fp=%s try=%s/%s key=%s — skipping",
+                title_fp[:40], attempt, max_tries, key,
+            )
+            state.mark_story_used(ident, idx, title=f"[skipped-dup-title] {title}"[:80])
+            used.add(key)
+            continue
+
+        # Cohere final review: attractive title + professional complete output
+        try:
+            title, full = summarize.review_finalize_story(
+                full, title=title, source_label=source_label,
+            )
+            parts = summarize._split_exactly_three(full) or parts
+        except Exception as rev_exc:  # noqa: BLE001
+            log.warning("cohere review skipped: %s", rev_exc)
+
+        # Re-check title after review
+        title_s = (title or "").strip()
+        bookish_bits = ("نوادر إنجليز", "طرائف إنجليز", "جمعت من مصادر", "مجموعة من مصادر", "Collected from")
+        if (
+            title_s in generic
+            or len(title_s) < 6
+            or any(b in title_s for b in bookish_bits)
+        ):
+            log.warning("generic/bookish title after review %r try=%s key=%s — skipping", title, attempt, key)
+            state.mark_story_used(ident, idx, title=f"[skipped-generic-title] {title}"[:80])
+            used.add(key)
+            continue
+        title_fp = state.title_fingerprint(title)
+        if title_fp and title_fp in used_titles:
+            log.warning(
+                "duplicate Arabic title after review fp=%s try=%s/%s key=%s — skipping",
                 title_fp[:40], attempt, max_tries, key,
             )
             state.mark_story_used(ident, idx, title=f"[skipped-dup-title] {title}"[:80])
