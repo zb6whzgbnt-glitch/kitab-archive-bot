@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import os
 import re
@@ -1883,6 +1884,7 @@ def _cohere_api_key() -> str:
 
 def _cohere_chat(prompt: str, *, max_tokens: int = 8192, temperature: float = 0.35) -> str:
     """Call Cohere Chat API v2. Raises SummarizeError on failure."""
+    import json
     import urllib.error
     import urllib.request
 
