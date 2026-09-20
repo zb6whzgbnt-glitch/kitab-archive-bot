@@ -1895,11 +1895,14 @@ def _cohere_chat(prompt: str, *, max_tokens: int = 8192, temperature: float = 0.
     api_key = _cohere_api_key()
     if not api_key:
         raise SummarizeError("COHERE_API_KEY missing")
+    # Cohere chat output cap (command-a family)
+    max_tokens = max(256, min(int(max_tokens or 8192), 8192))
     models = [
         (os.getenv("COHERE_REVIEW_MODEL") or "").strip() or "command-a-03-2025",
-        "command-r-plus",
-        "command-r",
-        "command",
+        "command-a-03-2025",
+        "command-r7b-arabic-02-2025",
+        "command-r-plus-08-2024",
+        "command-r7b-12-2024",
     ]
     # dedupe
     seen = set()
@@ -2002,7 +2005,7 @@ def review_finalize_story(text: str, title: str = "", source_label: str = "") ->
         f"النص:\n{body}"
     )
     try:
-        out = _cohere_chat(prompt, max_tokens=10000, temperature=0.35)
+        out = _cohere_chat(prompt, max_tokens=8192, temperature=0.35)
     except Exception as exc:  # noqa: BLE001
         log.warning("review_finalize_story failed: %s", _redact_secrets(str(exc))[:200])
         return (t0 or "نادرة", raw)
