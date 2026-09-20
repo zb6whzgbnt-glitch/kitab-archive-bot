@@ -23,7 +23,8 @@ HEADERS = {
     "Accept": "application/json, text/plain, */*",
 }
 
-# Mission: English jestbooks / merry tales / anecdotes → Arabic nawadir-style delivery.
+# Mission: English jestbooks / merry tales / anecdotes (incl. women, judges, marriage, bawdy facetiae)
+# → Arabic nawadir-style delivery; faithful tone, no bowdlerizing.
 CONTENT_MODE = "jestbooks"
 SOLE_SOURCE_TITLE = ""
 SOLE_SOURCE_AUTHOR = ""
@@ -41,11 +42,24 @@ PREFERRED_JESTBOOKS_EN = [
     "thehundredmerrytalesorsh",
     "picturebookofmer00londiala",
     "apicturebookofme43599gut",
-    "cu31924021264209",              # Legal facetiae (humorous)
+    # Judges / lawyers / bench & bar anecdotes
+    "cu31924021264209",              # Legal facetiae : satirical and humorous
+    "westminsterhall00roscgoog",     # Westminster Hall anecdotes of bar & bench
+    "lawandlawyersas01polsgoog",     # Law and Lawyers gossip & anecdotes
+    "cu31924018791883",              # Bench and bar in California (anecdotes)
+    "oldcourthouserem00cart",        # Old court house reminiscences & anecdotes
+    # Women / marriage / lovers (literary public-domain tale collections)
+    "decameron01boccuoft",           # Boccaccio — The Decameron
+    "storiesboccacci00boccgoog",     # Stories of Boccaccio (The Decameron)
+    "heptameronoftale00marguoft",    # Heptameron of Margaret of Navarre
+    "cu31924082463211",              # The Heptameron
+    # Bawdy / sexual-tone facetiae & fabliaux (faithful literary jests, not modern porn)
     "facetiaeorjocos00bracgoog",     # Poggio Facetiae / jocose tales
     "facetiaecantabri00gooc",        # Facetiae cantabrigienses
     "fabliauxortalesa03legriala",    # Fabliaux or tales
+    "fabliauxortalesa01legriala",
     "fabliauxetcontes00tarsiala",
+    "facetiaemusarumd01mennuoft",    # Facetiae: Musarum deliciae
     "cu31924013117167",              # Merry tales of Gotham
     "merrytalesofthre00paul",
     "englishjestsanec00edin",
@@ -100,6 +114,35 @@ SEED_QUERIES_EN = [
         'OR title:facetiae OR title:fabliaux OR title:eulenspiegel) '
         "AND downloads:[10 TO *]"
     ),
+    # 5) Women / wives / marriage / lovers (literary tale collections)
+    (
+        '(title:heptameron OR title:decameron OR title:"droll stories" '
+        'OR title:"comforts of matrimony" OR title:"wives and husbands" '
+        'OR (title:anecdotes AND (title:women OR title:wives OR title:ladies)) '
+        'OR title:"conjugal") '
+        "AND mediatype:texts AND (language:eng OR language:English) "
+        "AND (collection:gutenberg OR format:DjVuTXT OR format:Text) "
+        "AND downloads:[20 TO *]"
+    ),
+    # 6) Judges / lawyers / bench & bar anecdotes
+    (
+        '(title:"legal facetiae" OR title:"law and lawyers" OR title:"westminster hall" '
+        'OR (title:anecdotes AND (title:bench OR title:bar OR title:lawyer OR title:lawyers '
+        'OR title:judge OR title:judges OR title:court)) '
+        'OR title:"bench and bar") '
+        "AND mediatype:texts AND (language:eng OR language:English) "
+        "AND (format:DjVuTXT OR format:Text OR collection:gutenberg) "
+        "AND downloads:[10 TO *]"
+    ),
+    # 7) Bawdy / sexual-tone facetiae & fabliaux (public-domain literary, not modern erotica)
+    (
+        '(title:facetiae OR title:facetiæ OR title:fabliaux OR title:poggio '
+        'OR title:scoggin OR title:"mery talys" OR title:"quick answers" '
+        'OR title:"musarum deliciae") '
+        "AND mediatype:texts AND (language:eng OR language:English) "
+        "AND (collection:gutenberg OR format:DjVuTXT OR format:Text) "
+        "AND downloads:[15 TO *]"
+    ),
 ]
 SEED_QUERIES_RU: list[str] = []
 SEED_QUERIES_UR: list[str] = []
@@ -115,9 +158,12 @@ SOURCE_LANGUAGES = ("eng",)
 
 SKIP_TITLE_RE = re.compile(
     r"(quran|qur.?an|mushaf|مصحف|القرآن|قرآن|textbook|nizami|nct0|"
-    r"color.?coded|tajw[ie]d|voluptuous|pearl.?a journal|"
+    r"color.?coded|tajw[ie]d|pearl.?a journal|"
     r"kaczynski|anarchist library|descriptive catalogue|"
-    r"deaths.?jest.?book|fool.?s tragedy)",
+    r"deaths.?jest.?book|fool.?s tragedy|"
+    r"treatise on the law|law of husband and wife|handbook of husband|"
+    r"ashraf ali|thanvi|f\*\*\* my wife|erotic cuckold|"
+    r"gift to husband and wife)",
     re.I,
 )
 
