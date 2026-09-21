@@ -39,7 +39,8 @@
     "englishjestsanda49370gut#20",
     "englishjestsanda49370gut#21",
     "englishjestsanda49370gut#22",
-    "englishjestsanda49370gut#23"
+    "englishjestsanda49370gut#23",
+    "englishjestsanda49370gut#24"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -64,15 +65,16 @@
     "كفالصباغووقارالقاضي",
     "ستةبنساتأخرىللفقراء",
     "رياحالسخريةونوادرالأذكياء",
-    "صخرةالحقيقةوطرائفالقامات"
+    "صخرةالحقيقةوطرائفالقامات",
+    "القسباتنوموازينالإيمان"
   ],
   "last_story": {
     "date": "2026-09-21",
     "identifier": "englishjestsanda49370gut",
-    "story_index": 23,
-    "title": "صخرة الحقيقة وطرائف القامات",
-    "key": "englishjestsanda49370gut#23",
-    "title_fp": "صخرةالحقيقةوطرائفالقامات"
+    "story_index": 24,
+    "title": "القس باتن وموازين الإيمان",
+    "key": "englishjestsanda49370gut#24",
+    "title_fp": "القسباتنوموازينالإيمان"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
