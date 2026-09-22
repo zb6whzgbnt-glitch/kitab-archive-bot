@@ -44,7 +44,28 @@ PCM_SAMPLE_WIDTH = 2  # 16-bit
 
 # edge-tts fallback (male)
 EDGE_FALLBACK_VOICE = "ar-SA-HamedNeural"
-EDGE_SPEECH_RATE = "+0%"
+# 1.5× playback via edge-tts rate (+50%). Override with EDGE_SPEECH_RATE or TTS_SPEED.
+EDGE_SPEECH_RATE_DEFAULT = "+50%"
+
+
+def _edge_speech_rate() -> str:
+    """Return edge-tts rate string for ~1.5× (or env override)."""
+    env_rate = (os.getenv("EDGE_SPEECH_RATE") or "").strip()
+    if env_rate:
+        return env_rate
+    speed_raw = (os.getenv("TTS_SPEED") or "").strip()
+    if speed_raw:
+        try:
+            speed = float(speed_raw)
+            pct = int(round((speed - 1.0) * 100))
+            return f"{pct:+d}%"
+        except ValueError:
+            pass
+    return EDGE_SPEECH_RATE_DEFAULT
+
+
+# Back-compat alias used by older call sites / logs
+EDGE_SPEECH_RATE = EDGE_SPEECH_RATE_DEFAULT
 
 # Fish Audio TTS (primary for story delivery)
 FISH_TTS_ENDPOINT = "https://api.fish.audio/v1/tts"
@@ -405,7 +426,9 @@ async def _edge_synthesize(text: str, dest: Path, voice: str) -> None:
 
     dest.parent.mkdir(parents=True, exist_ok=True)
     tmp = dest.with_suffix(".partial.mp3")
-    communicate = edge_tts.Communicate(text, voice, rate=EDGE_SPEECH_RATE)
+    rate = _edge_speech_rate()
+    log.info("edge-tts synthesize voice=%s rate=%s chars=%s", voice, rate, len(text or ""))
+    communicate = edge_tts.Communicate(text, voice, rate=rate)
     await communicate.save(str(tmp))
     tmp.replace(dest)
 
