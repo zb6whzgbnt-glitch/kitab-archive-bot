@@ -2011,7 +2011,7 @@ def review_finalize_story(text: str, title: str = "", source_label: str = "") ->
         "- بدون ماركداون وبدون نجوم وبدون عناوين #.\n"
         "- بدون عبرة وعظية ختامية؛ لكن اختم بجملة قصيرة من عندك توحي أن القصة انتهت فعلاً "
         "(مثل «وهنا تنتهي النادرة.») بعد اكتمال الأحداث.\n"
-        "- لا تلخّص ولا تحذف مشاهد مهمة؛ أبقِ الطول متوسطاً كاملاً قريباً من الأصل (ممنوع اختصاره إلى نادرة قصيرة).\n"
+        "- لا تلخّص ولا تحذف مشاهد مهمة؛ أعد كتابة النص كاملاً بنفس الطول تقريباً (عدد كلمات قريب من الأصل؛ ممنوع الاختصار أو التلخيص).\n"
         "- لا لاتينية في الجسم.\n"
         "صيغة الناتج حرفياً:\n"
         "العنوان: (عنوان جذاب)\n"
@@ -2051,13 +2051,26 @@ def review_finalize_story(text: str, title: str = "", source_label: str = "") ->
     final_body = "\n".join(lines[start:]).strip() or cleaned
     if final_title and final_body.lstrip().startswith(final_title):
         final_body = final_body.lstrip()[len(final_title):].lstrip()
+    # Reject shrink: Cohere sometimes summarizes; keep Gemini draft if shortened
+    bare_in = bare_letter_count(raw)
+    bare_out = bare_letter_count(final_body)
+    min_keep = max(int(bare_in * 0.85), min(FOLK_BARE_TARGET_MIN, bare_in))
+    if bare_in >= 2000 and bare_out < min_keep:
+        log.warning(
+            "cohere review shortened bare %s -> %s (min_keep=%s); keeping Gemini draft",
+            bare_in, bare_out, min_keep,
+        )
+        final_body = raw
+        # Keep Cohere title if it looks like a real tale title
+        if not final_title or final_title == "نادرة":
+            final_title = t0 or "نادرة"
     # Re-attach title at top for downstream consistency
     if final_title and not final_body.lstrip().startswith(final_title):
         final_body = f"{final_title}\n\n{final_body}"
     final_title = ensure_arabic_title(final_title) if final_title else "نادرة"
     log.info(
-        "cohere review ready title=%s chars=%s",
-        final_title[:60], len(final_body),
+        "cohere review ready title=%s bare=%s chars=%s",
+        final_title[:60], bare_letter_count(final_body), len(final_body),
     )
     return final_title, final_body
 
