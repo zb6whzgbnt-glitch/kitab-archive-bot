@@ -144,8 +144,9 @@ def prepare_story(advance_cycle: bool = True) -> dict:
             continue
         except summarize.SummarizeError as exc:
             cause = exc.__cause__
+            msg = str(cause or exc)
             if isinstance(cause, summarize.GeminiProhibitedError) or (
-                "PROHIBITED" in str(cause or exc).upper()
+                "PROHIBITED" in msg.upper()
             ):
                 last_err = exc
                 log.warning(
@@ -153,6 +154,16 @@ def prepare_story(advance_cycle: bool = True) -> dict:
                     attempt, max_tries, key,
                 )
                 state.mark_story_used(ident, idx, title=f"[skipped-prohibited] {src_title}"[:80])
+                used.add(key)
+                continue
+            # Too-short / empty output: try another source slice
+            if "أقصر من الطول المتوسط" in msg or "قصير جداً" in msg:
+                last_err = exc
+                log.warning(
+                    "story too short try=%s/%s key=%s err=%s — skipping",
+                    attempt, max_tries, key, msg[:120],
+                )
+                state.mark_story_used(ident, idx, title=f"[skipped-short] {src_title}"[:80])
                 used.add(key)
                 continue
             raise

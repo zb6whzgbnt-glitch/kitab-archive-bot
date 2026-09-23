@@ -1290,6 +1290,11 @@ def _strip_moral_tail(text: str) -> str:
 
 
 
+FOLK_BARE_TARGET_MIN = 4800
+FOLK_BARE_TARGET_MAX = 6200
+FOLK_BARE_HARD_CAP = 6500
+FOLK_BARE_CONTINUE_UNTIL = 5000
+
 def bare_letter_count(text: str) -> int:
     """Count letters only — exclude tashkeel, punctuation, digits, and whitespace."""
     if not text:
@@ -1299,7 +1304,7 @@ def bare_letter_count(text: str) -> int:
     return sum(1 for c in s if c.isalpha() or ("\u0600" <= c <= "\u06FF"))
 
 
-def trim_to_bare_letters(text: str, limit: int = 7800) -> str:
+def trim_to_bare_letters(text: str, limit: int = FOLK_BARE_HARD_CAP) -> str:
     """Trim text so bare_letter_count <= limit, preferring a sentence end."""
     if bare_letter_count(text) <= limit:
         return text.strip()
@@ -1345,8 +1350,10 @@ def _folk_story_prompt(
         "حيلة وحمق وبخل، ومواقف ذات طابع جنسي أو جريء إن وُجدت في الأصل.\n"
         "أمانة النقل أولاً: انقل المعنى والأحداث والشخصيات والنهاية كما في المصدر دون تحريف أو تليين أو حذف "
         "للمشاهد الجريئة أو الجنسية، ودون اختراع مشاهد لم تكن في الأصل، ودون تحويلها إلى وعظ أخلاقي.\n"
-        "ابدأ من بداية الموقف الأصلي (تعريف الشخصيات والمكان والسبب) ولا تقفز إلى الوسط. وسّع المشهد والحوار "
-        "ليصلح للاستماع نحو 9 دقائق، مع الحفاظ على روح النكتة والعقدة والنهاية كما في الأصل "
+        "ابدأ من بداية الموقف الأصلي (تعريف الشخصيات والمكان والسبب) ولا تقفز إلى الوسط. "
+        "وسّع المشاهد والحوار والوصف إلى قصة متوسطة كاملة (لا نكتة قصيرة ولا رواية طويلة)، "
+        "بقدر حكاية مثل «قائد السفينة والقط ذو الذيول التسعة»: بداية ووسط وعقدة ونهاية واضحة. "
+        "حافظ على روح النكتة والأحداث كما في الأصل "
         "(لا تختلق نهاية مختلفة ولا تحوّلها إلى درس تاريخي).\n"
         "الأسلوب: أنيق سلس، خفيف الظل، صور حية، بلا عامية ثقيلة وبلا ميلودراما صاخبة. "
         "إن كان الأصل جريئاً فكن واضحاً بأدب سردي دون ابتذال زائد ودون رقابة تحذف المعنى.\n"
@@ -1360,9 +1367,9 @@ def _folk_story_prompt(
         "احكِ سرداً متصلاً كقطعة واحدة كاملة من البداية للنهاية. ممنوع «جزء» أو «فصل» أو «تتمة» أو أرقام تقسيم داخل النص.\n"
         "أصلح تشويش الـOCR، وترجم الأسماء إلى صيغ عربية مألوفة إن أمكن.\n"
         f"لغة المصدر: {src}. الناتج بالعربية فقط.\n"
-        "الطول المستهدف: نحو 9 دقائق رواية صوتية. "
-        "حدّ الأحرف: حوالي 7200 إلى 7800 حرفاً من حروف الكلمات فقط "
-        "(الترقيم والمسافات لا تُحسب). لا تتجاوز 7800 حرفاً صافياً.\n"
+        "الطول المستهدف: قصة متوسطة — حوالي 4800 إلى 6200 حرفاً من حروف الكلمات فقط "
+        "(الترقيم والمسافات لا تُحسب؛ نحو 5 إلى 6 دقائق سرد عادي). "
+        "ممنوع التلخيص المختصر. ممنوع أن تكون أقصر من 4800 حرفاً صافياً. لا تتجاوز 6200 حرفاً صافياً.\n"
         "مهم جداً: اكتب بدون أي علامات تشكيل. نص عادي غير مشكّل.\n"
         "الترقيم: استخدم ترقيمًا عربيًا واضحاً.\n"
         "اختم بانتهاء الموقف ثم الخاتمة القصيرة التي تعلن انتهاء القصة (لا «يتبع»).\n"
@@ -1389,27 +1396,26 @@ _ENDING_HINTS = (
 
 
 def _story_looks_incomplete(text: str, finish_reason: str = "") -> bool:
-    """True if the tale likely stopped early."""
+    """True if the tale likely stopped early or is shorter than the medium band."""
     body = (text or "").strip()
     if not body:
         return True
     if (finish_reason or "").upper() == "MAX_TOKENS":
         return True
     words = body.split()
-    if bare_letter_count(body) < 3000 or len(words) < 280:
+    bare = bare_letter_count(body)
+    # Medium-length floor: reject short jests that only glance the anecdote
+    if bare < FOLK_BARE_TARGET_MIN or len(words) < 420:
         return True
     tail = body[-280:]
     # Ends mid-sentence / mid-word
-    if body[-1] not in ".!?؟۔…»\"'”":
-        # allow if last chars are Arabic letter then we likely truncated
-        if body[-1].isalnum() or "\u0600" <= body[-1] <= "\u06FF" or body[-1] in "،,":
+    _enders = set(".!?؟۔…»\"'") | {"”", "’"}
+    if body[-1] not in _enders:
+        if body[-1].isalnum() or ("؀" <= body[-1] <= "ۿ") or body[-1] in "،,":
             return True
-    # Very short and no ending hint
     low = tail.replace("ً", "").replace("ٌ", "").replace("ٍ", "")
-    if bare_letter_count(body) < 4500 and not any(h in low for h in _ENDING_HINTS):
-        # still OK if ends with clear sentence period and decent length
-        if bare_letter_count(body) < 3800:
-            return True
+    if bare < FOLK_BARE_CONTINUE_UNTIL and not any(h in low for h in _ENDING_HINTS):
+        return True
     return False
 
 
@@ -1418,7 +1424,7 @@ def _continue_folk_story(so_far: str, pass_no: int) -> tuple[str, str]:
         f"هذه تكملة رقم {pass_no} لنفس النادرة/الحكاية المرحة.\n"
         "أكمل من حيث توقّف النص حرفياً، بنفس الأسلوب الأدبي المشوّق وبدون أي تشكيل.\n"
         "لا تُعِد العنوان ولا المقدّمة ولا تلخّص ما سبق.\n"
-        "أكمل النادرة حتى تنتهي. أبقِ حروف الكلمات تحت 7800 (الترقيم والمسافات لا تُحسب؛ ممنوع التشكيل؛ حوالي 9 دقائق كحد أقصى). "
+        "أكمل النادرة حتى تنتهي بطول متوسط كامل. أبقِ حروف الكلمات تحت 6200 (الترقيم والمسافات لا تُحسب؛ ممنوع التشكيل؛ قصة متوسطة لا قصيرة). "
         "لا مقدمة ولا عبرة وعظية ولا جزء/فصل/تتمة. إذا اقتربت من النهاية فأكمل الحدث ثم اختم بجملة قصيرة تعلن انتهاء القصة.\n"
         "لا ماركداون ولا نجوم ولا كلمة «يتبع».\n\n"
         f"النص حتى الآن:\n{so_far}"
@@ -1518,13 +1524,16 @@ def build_folk_story(
             "تعذّر إعداد الحكاية الآن. انتظر قليلاً ثم أعد المحاولة عبر /now."
         ) from exc
 
-    max_passes = 4
+    max_passes = 5
     for pass_no in range(1, max_passes + 1):
         bare_now = bare_letter_count(out or "")
         words_now = len((out or "").split())
-        if bare_now >= 7000 and not _story_looks_incomplete(out or "", ""):
+        if bare_now >= FOLK_BARE_TARGET_MAX and not _story_looks_incomplete(out or "", ""):
             break
-        if not _story_looks_incomplete(out or "", reason or "") and bare_now >= 6200:
+        if (
+            not _story_looks_incomplete(out or "", reason or "")
+            and bare_now >= FOLK_BARE_CONTINUE_UNTIL
+        ):
             break
         log.info(
             "folk story incomplete pass=%s bare=%s words=%s finish=%s — continuing",
@@ -1546,15 +1555,15 @@ def build_folk_story(
             more = more[len(overlap):].lstrip() if more.startswith(overlap) else more
         out = ((out or "").rstrip() + "\n\n" + more).strip()
         reason = f"{reason}+{reason2}"
-        if bare_letter_count(out or "") >= 7800:
+        if bare_letter_count(out or "") >= FOLK_BARE_HARD_CAP:
             log.info(
-                "folk story stopped continuing at bare=%s (7800/~9min cap)",
-                bare_letter_count(out or ""),
+                "folk story stopped continuing at bare=%s (medium hard cap %s)",
+                bare_letter_count(out or ""), FOLK_BARE_HARD_CAP,
             )
             break
 
     cleaned = sanitize_for_speech(strip_part_labels(out or ""))
-    if not cleaned or len(cleaned) < 400:
+    if not cleaned or bare_letter_count(cleaned) < 2500:
         raise SummarizeError("ناتج الحكاية قصير جداً أو فارغ")
     lines = cleaned.splitlines()
     story_title = (title or "").strip() or "نادرة"
@@ -1611,11 +1620,19 @@ def build_folk_story(
     # Drop moral/epilogue tails if model added them
     body = _strip_moral_tail(body)
     bare_before = bare_letter_count(body)
-    if bare_before > 7800:
-        body = trim_to_bare_letters(body, 7800)
+    if bare_before > FOLK_BARE_HARD_CAP:
+        body = trim_to_bare_letters(body, FOLK_BARE_HARD_CAP)
         log.info(
-            "folk story soft-trimmed bare %s -> %s (cap 7800 ~9min excl. punct)",
-            bare_before, bare_letter_count(body),
+            "folk story soft-trimmed bare %s -> %s (medium cap %s)",
+            bare_before, bare_letter_count(body), FOLK_BARE_HARD_CAP,
+        )
+    if bare_letter_count(body) < FOLK_BARE_TARGET_MIN:
+        log.warning(
+            "folk story below medium floor bare=%s min=%s title=%s",
+            bare_letter_count(body), FOLK_BARE_TARGET_MIN, (story_title or "")[:40],
+        )
+        raise SummarizeError(
+            f"الحكاية أقصر من الطول المتوسط المطلوب ({bare_letter_count(body)} < {FOLK_BARE_TARGET_MIN})"
         )
     story_title = ensure_arabic_title(story_title) if story_title else "نادرة"
     # Reject titles that are clearly the book/collection name
@@ -1994,7 +2011,7 @@ def review_finalize_story(text: str, title: str = "", source_label: str = "") ->
         "- بدون ماركداون وبدون نجوم وبدون عناوين #.\n"
         "- بدون عبرة وعظية ختامية؛ لكن اختم بجملة قصيرة من عندك توحي أن القصة انتهت فعلاً "
         "(مثل «وهنا تنتهي النادرة.») بعد اكتمال الأحداث.\n"
-        "- لا تلخّص ولا تحذف مشاهد مهمة؛ أبقِ الطول قريباً من الأصل.\n"
+        "- لا تلخّص ولا تحذف مشاهد مهمة؛ أبقِ الطول متوسطاً كاملاً قريباً من الأصل (ممنوع اختصاره إلى نادرة قصيرة).\n"
         "- لا لاتينية في الجسم.\n"
         "صيغة الناتج حرفياً:\n"
         "العنوان: (عنوان جذاب)\n"

@@ -198,7 +198,7 @@ NIGHT_INLINE_RE = re.compile(
     r")"
 )
 
-STORY_TARGET_WORDS = 900  # jest/anecdote slices; Gemini expands into full narration
+STORY_TARGET_WORDS = 1200  # richer slice so Gemini can expand to a medium tale
 
 
 WORD_RE = re.compile(r"[\w\u0600-\u06FF]+", re.UNICODE)
