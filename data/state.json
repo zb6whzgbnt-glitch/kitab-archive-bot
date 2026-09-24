@@ -54,7 +54,9 @@
     "englishjestsanda49370gut#35",
     "englishjestsanda49370gut#36",
     "englishjestsanda49370gut#37",
-    "englishjestsanda49370gut#38"
+    "englishjestsanda49370gut#38",
+    "englishjestsanda49370gut#39",
+    "englishjestsanda49370gut#40"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -94,15 +96,17 @@
     "طرائفالماكرينونوادرالظرفاء",
     "ذكاءالويلزيوجرأةالملك",
     "مزاحالقاضيولسانالساخر",
-    "دوقيوركالشبح"
+    "دوقيوركالشبح",
+    "skippednonnarrativeletmedownhecriedtothechairman",
+    "لسانمننار"
   ],
   "last_story": {
     "date": "2026-09-24",
     "identifier": "englishjestsanda49370gut",
-    "story_index": 38,
-    "title": "دوق يورك الشبح",
-    "key": "englishjestsanda49370gut#38",
-    "title_fp": "دوقيوركالشبح"
+    "story_index": 40,
+    "title": "لسانٌ من نار",
+    "key": "englishjestsanda49370gut#40",
+    "title_fp": "لسانمننار"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
