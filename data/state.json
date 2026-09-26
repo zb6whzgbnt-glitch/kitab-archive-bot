@@ -63,7 +63,8 @@
     "englishjestsanda49370gut#44",
     "englishjestsanda49370gut#45",
     "englishjestsanda49370gut#46",
-    "englishjestsanda49370gut#47"
+    "englishjestsanda49370gut#47",
+    "englishjestsanda49370gut#48"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -112,15 +113,16 @@
     "الكاتبوالوهمالملكي",
     "حيلةالفلاحودهاءمردخاي",
     "محفظةالقاضيالمسلوبة",
-    "الشيخوالفتياتمكروحكمة"
+    "الشيخوالفتياتمكروحكمة",
+    "حميرشاولبنقيس"
   ],
   "last_story": {
-    "date": "2026-09-25",
+    "date": "2026-09-26",
     "identifier": "englishjestsanda49370gut",
-    "story_index": 47,
-    "title": "الشيخ والفتيات: مكرٌ وحكمة",
-    "key": "englishjestsanda49370gut#47",
-    "title_fp": "الشيخوالفتياتمكروحكمة"
+    "story_index": 48,
+    "title": "حمير شاول بن قيس",
+    "key": "englishjestsanda49370gut#48",
+    "title_fp": "حميرشاولبنقيس"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
