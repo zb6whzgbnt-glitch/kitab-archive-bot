@@ -71,7 +71,8 @@
     "englishjestsanda49370gut#52",
     "englishjestsanda49370gut#53",
     "thejestbookthech20352gut#1",
-    "thejestbookthech20352gut#2"
+    "thejestbookthech20352gut#2",
+    "thejestbookthech20352gut#3"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -128,15 +129,16 @@
     "فاطمةالمصريةوزواجالبطل",
     "المحتالوالشاعرالفطن",
     "نسبقبلالخليقة",
-    "قبلةالفارسوالزوجةالجسورة"
+    "قبلةالفارسوالزوجةالجسورة",
+    "العجوزالداهيةوالرؤياالمعكوسة"
   ],
   "last_story": {
     "date": "2026-10-02",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 2,
-    "title": "قبلة الفارس والزوجة الجسورة",
-    "key": "thejestbookthech20352gut#2",
-    "title_fp": "قبلةالفارسوالزوجةالجسورة"
+    "story_index": 3,
+    "title": "العجوز الداهية والرؤيا المعكوسة",
+    "key": "thejestbookthech20352gut#3",
+    "title_fp": "العجوزالداهيةوالرؤياالمعكوسة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
