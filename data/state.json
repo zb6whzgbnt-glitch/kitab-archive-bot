@@ -70,7 +70,8 @@
     "englishjestsanda49370gut#51",
     "englishjestsanda49370gut#52",
     "englishjestsanda49370gut#53",
-    "thejestbookthech20352gut#1"
+    "thejestbookthech20352gut#1",
+    "thejestbookthech20352gut#2"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -126,15 +127,16 @@
     "توماسووليمةالأحد",
     "فاطمةالمصريةوزواجالبطل",
     "المحتالوالشاعرالفطن",
-    "نسبقبلالخليقة"
+    "نسبقبلالخليقة",
+    "قبلةالفارسوالزوجةالجسورة"
   ],
   "last_story": {
     "date": "2026-10-02",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 1,
-    "title": "نسبٌ قبل الخليقة",
-    "key": "thejestbookthech20352gut#1",
-    "title_fp": "نسبقبلالخليقة"
+    "story_index": 2,
+    "title": "قبلة الفارس والزوجة الجسورة",
+    "key": "thejestbookthech20352gut#2",
+    "title_fp": "قبلةالفارسوالزوجةالجسورة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
