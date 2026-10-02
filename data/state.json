@@ -68,7 +68,8 @@
     "englishjestsanda49370gut#49",
     "englishjestsanda49370gut#50",
     "englishjestsanda49370gut#51",
-    "englishjestsanda49370gut#52"
+    "englishjestsanda49370gut#52",
+    "englishjestsanda49370gut#53"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -122,15 +123,16 @@
     "مغامراتجيوفانيونوادراللسان",
     "أسنانالملكالشره",
     "توماسووليمةالأحد",
-    "فاطمةالمصريةوزواجالبطل"
+    "فاطمةالمصريةوزواجالبطل",
+    "المحتالوالشاعرالفطن"
   ],
   "last_story": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "identifier": "englishjestsanda49370gut",
-    "story_index": 52,
-    "title": "فاطمة المصرية وزواج البطل",
-    "key": "englishjestsanda49370gut#52",
-    "title_fp": "فاطمةالمصريةوزواجالبطل"
+    "story_index": 53,
+    "title": "المحتال والشاعر الفطن",
+    "key": "englishjestsanda49370gut#53",
+    "title_fp": "المحتالوالشاعرالفطن"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
