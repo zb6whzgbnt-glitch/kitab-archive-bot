@@ -72,7 +72,8 @@
     "englishjestsanda49370gut#53",
     "thejestbookthech20352gut#1",
     "thejestbookthech20352gut#2",
-    "thejestbookthech20352gut#3"
+    "thejestbookthech20352gut#3",
+    "thejestbookthech20352gut#4"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -130,15 +131,16 @@
     "المحتالوالشاعرالفطن",
     "نسبقبلالخليقة",
     "قبلةالفارسوالزوجةالجسورة",
-    "العجوزالداهيةوالرؤياالمعكوسة"
+    "العجوزالداهيةوالرؤياالمعكوسة",
+    "قاضيالعاصفة"
   ],
   "last_story": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 3,
-    "title": "العجوز الداهية والرؤيا المعكوسة",
-    "key": "thejestbookthech20352gut#3",
-    "title_fp": "العجوزالداهيةوالرؤياالمعكوسة"
+    "story_index": 4,
+    "title": "قاضي العاصفة",
+    "key": "thejestbookthech20352gut#4",
+    "title_fp": "قاضيالعاصفة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
