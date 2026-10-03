@@ -73,7 +73,8 @@
     "thejestbookthech20352gut#1",
     "thejestbookthech20352gut#2",
     "thejestbookthech20352gut#3",
-    "thejestbookthech20352gut#4"
+    "thejestbookthech20352gut#4",
+    "thejestbookthech20352gut#5"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -132,15 +133,16 @@
     "نسبقبلالخليقة",
     "قبلةالفارسوالزوجةالجسورة",
     "العجوزالداهيةوالرؤياالمعكوسة",
-    "قاضيالعاصفة"
+    "قاضيالعاصفة",
+    "ثغاءالثروة"
   ],
   "last_story": {
     "date": "2026-10-03",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 4,
-    "title": "قاضي العاصفة",
-    "key": "thejestbookthech20352gut#4",
-    "title_fp": "قاضيالعاصفة"
+    "story_index": 5,
+    "title": "ثغاء الثروة",
+    "key": "thejestbookthech20352gut#5",
+    "title_fp": "ثغاءالثروة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
