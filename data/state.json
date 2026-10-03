@@ -74,7 +74,8 @@
     "thejestbookthech20352gut#2",
     "thejestbookthech20352gut#3",
     "thejestbookthech20352gut#4",
-    "thejestbookthech20352gut#5"
+    "thejestbookthech20352gut#5",
+    "thejestbookthech20352gut#6"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -134,15 +135,16 @@
     "قبلةالفارسوالزوجةالجسورة",
     "العجوزالداهيةوالرؤياالمعكوسة",
     "قاضيالعاصفة",
-    "ثغاءالثروة"
+    "ثغاءالثروة",
+    "كتابالاتحادوالسحر"
   ],
   "last_story": {
     "date": "2026-10-03",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 5,
-    "title": "ثغاء الثروة",
-    "key": "thejestbookthech20352gut#5",
-    "title_fp": "ثغاءالثروة"
+    "story_index": 6,
+    "title": "كتاب الاتحاد والسحر",
+    "key": "thejestbookthech20352gut#6",
+    "title_fp": "كتابالاتحادوالسحر"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
