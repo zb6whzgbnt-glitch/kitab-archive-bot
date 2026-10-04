@@ -79,7 +79,8 @@
     "thejestbookthech20352gut#7",
     "thejestbookthech20352gut#8",
     "thejestbookthech20352gut#9",
-    "thejestbookthech20352gut#10"
+    "thejestbookthech20352gut#10",
+    "thejestbookthech20352gut#11"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -144,15 +145,16 @@
     "ستائرالتاج",
     "وقارهاريسونوغرورديفي",
     "عجلالسيرويليام",
-    "الكبشانالسمينانورسالةالمحامي"
+    "الكبشانالسمينانورسالةالمحامي",
+    "الممثلالذيهزمالصفير"
   ],
   "last_story": {
     "date": "2026-10-04",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 10,
-    "title": "الكبشان السمينان ورسالة المحامي",
-    "key": "thejestbookthech20352gut#10",
-    "title_fp": "الكبشانالسمينانورسالةالمحامي"
+    "story_index": 11,
+    "title": "الممثل الذي هزم الصفير",
+    "key": "thejestbookthech20352gut#11",
+    "title_fp": "الممثلالذيهزمالصفير"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
