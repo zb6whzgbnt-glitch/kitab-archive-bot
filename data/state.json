@@ -76,7 +76,8 @@
     "thejestbookthech20352gut#4",
     "thejestbookthech20352gut#5",
     "thejestbookthech20352gut#6",
-    "thejestbookthech20352gut#7"
+    "thejestbookthech20352gut#7",
+    "thejestbookthech20352gut#8"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -138,15 +139,16 @@
     "قاضيالعاصفة",
     "ثغاءالثروة",
     "كتابالاتحادوالسحر",
-    "ستائرالتاج"
+    "ستائرالتاج",
+    "وقارهاريسونوغرورديفي"
   ],
   "last_story": {
-    "date": "2026-10-03",
+    "date": "2026-10-04",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 7,
-    "title": "ستائر التاج",
-    "key": "thejestbookthech20352gut#7",
-    "title_fp": "ستائرالتاج"
+    "story_index": 8,
+    "title": "وقار هاريسون وغرور ديفي",
+    "key": "thejestbookthech20352gut#8",
+    "title_fp": "وقارهاريسونوغرورديفي"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
