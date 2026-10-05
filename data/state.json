@@ -80,7 +80,9 @@
     "thejestbookthech20352gut#8",
     "thejestbookthech20352gut#9",
     "thejestbookthech20352gut#10",
-    "thejestbookthech20352gut#11"
+    "thejestbookthech20352gut#11",
+    "thejestbookthech20352gut#12",
+    "thejestbookthech20352gut#13"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -146,15 +148,17 @@
     "وقارهاريسونوغرورديفي",
     "عجلالسيرويليام",
     "الكبشانالسمينانورسالةالمحامي",
-    "الممثلالذيهزمالصفير"
+    "الممثلالذيهزمالصفير",
+    "skippednonnarrativejacobjohnsonthepublisherhavingrefusedtoadvance",
+    "مطرينبتزوجات"
   ],
   "last_story": {
-    "date": "2026-10-04",
+    "date": "2026-10-05",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 11,
-    "title": "الممثل الذي هزم الصفير",
-    "key": "thejestbookthech20352gut#11",
-    "title_fp": "الممثلالذيهزمالصفير"
+    "story_index": 13,
+    "title": "مطرٌ يُنبتُ زوجات",
+    "key": "thejestbookthech20352gut#13",
+    "title_fp": "مطرينبتزوجات"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
