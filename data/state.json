@@ -89,7 +89,9 @@
     "thejestbookthech20352gut#17",
     "thejestbookthech20352gut#18",
     "thejestbookthech20352gut#19",
-    "thejestbookthech20352gut#20"
+    "thejestbookthech20352gut#20",
+    "thejestbookthech20352gut#21",
+    "thejestbookthech20352gut#22"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -164,15 +166,17 @@
     "skippedshortsheridansfavoritecharacterswas_cato_andonitsrevivalat",
     "انحناءةالقائد",
     "skippednonnarrativeatthelastrehearsalofjoannamr",
-    "ياسير،قالجونسون،لمأسئللرجلقط،ومعذلكفهو"
+    "ياسير،قالجونسون،لمأسئللرجلقط،ومعذلكفهو",
+    "skippedshortamanwasbroughtbeforelordmansfieldchargedwithstealinga",
+    "محامحذروثوببال"
   ],
   "last_story": {
-    "date": "2026-10-06",
+    "date": "2026-10-07",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 20,
-    "title": "يا سير، قال جونسون، لم أسئ للرجل قط، ومع ذلك فهو",
-    "key": "thejestbookthech20352gut#20",
-    "title_fp": "ياسير،قالجونسون،لمأسئللرجلقط،ومعذلكفهو"
+    "story_index": 22,
+    "title": "(محام حذر وثوب بال)",
+    "key": "thejestbookthech20352gut#22",
+    "title_fp": "محامحذروثوببال"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
