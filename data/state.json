@@ -87,7 +87,9 @@
     "thejestbookthech20352gut#15",
     "thejestbookthech20352gut#16",
     "thejestbookthech20352gut#17",
-    "thejestbookthech20352gut#18"
+    "thejestbookthech20352gut#18",
+    "thejestbookthech20352gut#19",
+    "thejestbookthech20352gut#20"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -160,15 +162,17 @@
     "اللوردوالتابوت",
     "الشاعروالجاسوسوالوزير",
     "skippedshortsheridansfavoritecharacterswas_cato_andonitsrevivalat",
-    "انحناءةالقائد"
+    "انحناءةالقائد",
+    "skippednonnarrativeatthelastrehearsalofjoannamr",
+    "ياسير،قالجونسون،لمأسئللرجلقط،ومعذلكفهو"
   ],
   "last_story": {
     "date": "2026-10-06",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 18,
-    "title": "انحناءة القائد",
-    "key": "thejestbookthech20352gut#18",
-    "title_fp": "انحناءةالقائد"
+    "story_index": 20,
+    "title": "يا سير، قال جونسون، لم أسئ للرجل قط، ومع ذلك فهو",
+    "key": "thejestbookthech20352gut#20",
+    "title_fp": "ياسير،قالجونسون،لمأسئللرجلقط،ومعذلكفهو"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
