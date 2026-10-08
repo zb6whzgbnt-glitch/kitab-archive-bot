@@ -101,7 +101,8 @@
     "thejestbookthech20352gut#29",
     "thejestbookthech20352gut#30",
     "thejestbookthech20352gut#31",
-    "thejestbookthech20352gut#32"
+    "thejestbookthech20352gut#32",
+    "thejestbookthech20352gut#33"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -188,15 +189,16 @@
     "كشكالعار",
     "دفترالمغفلين",
     "خدعةالعشرينجنيها",
-    "الفارسالمقلوب"
+    "الفارسالمقلوب",
+    "حيلةالكاتبالظريف"
   ],
   "last_story": {
-    "date": "2026-10-08",
+    "date": "2026-10-09",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 32,
-    "title": "الفارس المقلوب",
-    "key": "thejestbookthech20352gut#32",
-    "title_fp": "الفارسالمقلوب"
+    "story_index": 33,
+    "title": "حيلة الكاتب الظريف",
+    "key": "thejestbookthech20352gut#33",
+    "title_fp": "حيلةالكاتبالظريف"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
