@@ -100,7 +100,8 @@
     "thejestbookthech20352gut#28",
     "thejestbookthech20352gut#29",
     "thejestbookthech20352gut#30",
-    "thejestbookthech20352gut#31"
+    "thejestbookthech20352gut#31",
+    "thejestbookthech20352gut#32"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -186,15 +187,16 @@
     "بصاقالملكينوبصاقالنادل",
     "كشكالعار",
     "دفترالمغفلين",
-    "خدعةالعشرينجنيها"
+    "خدعةالعشرينجنيها",
+    "الفارسالمقلوب"
   ],
   "last_story": {
     "date": "2026-10-08",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 31,
-    "title": "خدعة العشرين جنيها",
-    "key": "thejestbookthech20352gut#31",
-    "title_fp": "خدعةالعشرينجنيها"
+    "story_index": 32,
+    "title": "الفارس المقلوب",
+    "key": "thejestbookthech20352gut#32",
+    "title_fp": "الفارسالمقلوب"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
