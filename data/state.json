@@ -103,7 +103,8 @@
     "thejestbookthech20352gut#31",
     "thejestbookthech20352gut#32",
     "thejestbookthech20352gut#33",
-    "thejestbookthech20352gut#34"
+    "thejestbookthech20352gut#34",
+    "thejestbookthech20352gut#35"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -192,15 +193,16 @@
     "خدعةالعشرينجنيها",
     "الفارسالمقلوب",
     "حيلةالكاتبالظريف",
-    "حيلةالمحفة"
+    "حيلةالمحفة",
+    "رأسالمحاميوقياسالحجر"
   ],
   "last_story": {
     "date": "2026-10-09",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 34,
-    "title": "حيلة المحفة",
-    "key": "thejestbookthech20352gut#34",
-    "title_fp": "حيلةالمحفة"
+    "story_index": 35,
+    "title": "رأس المحامي وقياس الحجر",
+    "key": "thejestbookthech20352gut#35",
+    "title_fp": "رأسالمحاميوقياسالحجر"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
