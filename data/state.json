@@ -105,7 +105,8 @@
     "thejestbookthech20352gut#33",
     "thejestbookthech20352gut#34",
     "thejestbookthech20352gut#35",
-    "thejestbookthech20352gut#36"
+    "thejestbookthech20352gut#36",
+    "thejestbookthech20352gut#37"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -196,15 +197,16 @@
     "حيلةالكاتبالظريف",
     "حيلةالمحفة",
     "رأسالمحاميوقياسالحجر",
-    "اختبارالأمواج"
+    "اختبارالأمواج",
+    "حيلةالشاربوالخباز"
   ],
   "last_story": {
-    "date": "2026-10-09",
+    "date": "2026-10-10",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 36,
-    "title": "اختبار الأمواج",
-    "key": "thejestbookthech20352gut#36",
-    "title_fp": "اختبارالأمواج"
+    "story_index": 37,
+    "title": "حيلة الشارب والخباز",
+    "key": "thejestbookthech20352gut#37",
+    "title_fp": "حيلةالشاربوالخباز"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
