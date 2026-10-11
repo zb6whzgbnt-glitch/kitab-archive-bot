@@ -110,7 +110,8 @@
     "thejestbookthech20352gut#38",
     "thejestbookthech20352gut#39",
     "thejestbookthech20352gut#40",
-    "thejestbookthech20352gut#41"
+    "thejestbookthech20352gut#41",
+    "thejestbookthech20352gut#42"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -206,15 +207,16 @@
     "حفرةالغريروخدعةالسيد",
     "ساقالقبطانالخشبية",
     "القسيسالمفرقع",
-    "ساقالبحارالخشبيةوخدعةالقطران"
+    "ساقالبحارالخشبيةوخدعةالقطران",
+    "خدعةالأتعاب"
   ],
   "last_story": {
-    "date": "2026-10-10",
+    "date": "2026-10-11",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 41,
-    "title": "ساق البحار الخشبية وخدعة القطران",
-    "key": "thejestbookthech20352gut#41",
-    "title_fp": "ساقالبحارالخشبيةوخدعةالقطران"
+    "story_index": 42,
+    "title": "خدعة الأتعاب",
+    "key": "thejestbookthech20352gut#42",
+    "title_fp": "خدعةالأتعاب"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
