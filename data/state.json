@@ -117,7 +117,11 @@
     "thejestbookthech20352gut#45",
     "thejestbookthech20352gut#46",
     "jestbookchoicest00lemo#1",
-    "thejestbookthech20352gut#47"
+    "thejestbookthech20352gut#47",
+    "thejestbookthech20352gut#48",
+    "thejestbookthech20352gut#49",
+    "thejestbookthech20352gut#51",
+    "thejestbookthech20352gut#52"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -220,15 +224,19 @@
     "الكويكروكيسالذهب",
     "صفاءيكفيواحدا",
     "حيلةالثوب",
-    "مأساةكوكالمختلقة"
+    "مأساةكوكالمختلقة",
+    "skippednonnarrativeundertheimprovedsystemofagricultureandofdraining",
+    "skippednonnarrativeajollygoodfellowhadanofficenexttoadoctors",
+    "skippedshortiamverygladtohearitsaidabystanderforno",
+    "الشاهدالأيرلنديوالمحاميالماكر"
   ],
   "last_story": {
     "date": "2026-10-13",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 47,
-    "title": "مأساة كوك المختلقة",
-    "key": "thejestbookthech20352gut#47",
-    "title_fp": "مأساةكوكالمختلقة"
+    "story_index": 52,
+    "title": "الشاهد الأيرلندي والمحامي الماكر",
+    "key": "thejestbookthech20352gut#52",
+    "title_fp": "الشاهدالأيرلنديوالمحاميالماكر"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
