@@ -115,7 +115,8 @@
     "thejestbookthech20352gut#43",
     "thejestbookthech20352gut#44",
     "thejestbookthech20352gut#45",
-    "thejestbookthech20352gut#46"
+    "thejestbookthech20352gut#46",
+    "jestbookchoicest00lemo#1"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -216,15 +217,16 @@
     "القرعةالقاتلةوالنصيحةالجافة",
     "زورقالشقيقالرابع",
     "الكويكروكيسالذهب",
-    "صفاءيكفيواحدا"
+    "صفاءيكفيواحدا",
+    "حيلةالثوب"
   ],
   "last_story": {
     "date": "2026-10-12",
-    "identifier": "thejestbookthech20352gut",
-    "story_index": 46,
-    "title": "صفاء يكفي واحداً",
-    "key": "thejestbookthech20352gut#46",
-    "title_fp": "صفاءيكفيواحدا"
+    "identifier": "jestbookchoicest00lemo",
+    "story_index": 1,
+    "title": "حيلة الثوب",
+    "key": "jestbookchoicest00lemo#1",
+    "title_fp": "حيلةالثوب"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
@@ -239,7 +241,8 @@
     "zhiv_star",
     "AsatterSha3byhG4",
     "englishjestsanda49370gut",
-    "thejestbookthech20352gut"
+    "thejestbookthech20352gut",
+    "jestbookchoicest00lemo"
   ],
   "used_english": [
     "treasureisland00stevrich",
