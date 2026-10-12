@@ -116,7 +116,8 @@
     "thejestbookthech20352gut#44",
     "thejestbookthech20352gut#45",
     "thejestbookthech20352gut#46",
-    "jestbookchoicest00lemo#1"
+    "jestbookchoicest00lemo#1",
+    "thejestbookthech20352gut#47"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -218,15 +219,16 @@
     "زورقالشقيقالرابع",
     "الكويكروكيسالذهب",
     "صفاءيكفيواحدا",
-    "حيلةالثوب"
+    "حيلةالثوب",
+    "مأساةكوكالمختلقة"
   ],
   "last_story": {
-    "date": "2026-10-12",
-    "identifier": "jestbookchoicest00lemo",
-    "story_index": 1,
-    "title": "حيلة الثوب",
-    "key": "jestbookchoicest00lemo#1",
-    "title_fp": "حيلةالثوب"
+    "date": "2026-10-13",
+    "identifier": "thejestbookthech20352gut",
+    "story_index": 47,
+    "title": "مأساة كوك المختلقة",
+    "key": "thejestbookthech20352gut#47",
+    "title_fp": "مأساةكوكالمختلقة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
