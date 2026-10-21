@@ -139,7 +139,8 @@
     "thejestbookthech20352gut#67",
     "thejestbookthech20352gut#68",
     "thejestbookthech20352gut#69",
-    "thejestbookthech20352gut#70"
+    "thejestbookthech20352gut#70",
+    "thejestbookthech20352gut#71"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -264,15 +265,16 @@
     "حيلةالقاضيوالوصيةالماكرة",
     "المظلةوالصك",
     "القاضيوالقامتان",
-    "الحلاقوالمحاميصراعالأذكياء"
+    "الحلاقوالمحاميصراعالأذكياء",
+    "قطرةالحكمة"
   ],
   "last_story": {
     "date": "2026-10-21",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 70,
-    "title": "الحلاق والمحامي: صراع الأذكياء",
-    "key": "thejestbookthech20352gut#70",
-    "title_fp": "الحلاقوالمحاميصراعالأذكياء"
+    "story_index": 71,
+    "title": "قطرة الحكمة",
+    "key": "thejestbookthech20352gut#71",
+    "title_fp": "قطرةالحكمة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
