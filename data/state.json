@@ -142,7 +142,8 @@
     "thejestbookthech20352gut#70",
     "thejestbookthech20352gut#71",
     "thejestbookthech20352gut#72",
-    "thejestbookthech20352gut#73"
+    "thejestbookthech20352gut#73",
+    "thejestbookthech20352gut#74"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -270,15 +271,16 @@
     "الحلاقوالمحاميصراعالأذكياء",
     "قطرةالحكمة",
     "مقعدانونصفرجل",
-    "وردةالجمالوالعاهرةالرثة"
+    "وردةالجمالوالعاهرةالرثة",
+    "كورانوشاهدالحديقة"
   ],
   "last_story": {
     "date": "2026-10-22",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 73,
-    "title": "وردة الجمال والعاهرة الرثة",
-    "key": "thejestbookthech20352gut#73",
-    "title_fp": "وردةالجمالوالعاهرةالرثة"
+    "story_index": 74,
+    "title": "كوران وشاهد الحديقة",
+    "key": "thejestbookthech20352gut#74",
+    "title_fp": "كورانوشاهدالحديقة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
