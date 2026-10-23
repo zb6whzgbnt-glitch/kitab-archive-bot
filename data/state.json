@@ -146,7 +146,8 @@
     "thejestbookthech20352gut#74",
     "thejestbookthech20352gut#75",
     "thejestbookthech20352gut#76",
-    "thejestbookthech20352gut#77"
+    "thejestbookthech20352gut#77",
+    "thejestbookthech20352gut#78"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -278,15 +279,16 @@
     "كورانوشاهدالحديقة",
     "الجنرالوالطشت",
     "الطفيليالذكيوالزوجانالمتخاصمان",
-    "الحيلةوالسياسيالجسور"
+    "الحيلةوالسياسيالجسور",
+    "لسانمخطوفومطايبة"
   ],
   "last_story": {
     "date": "2026-10-23",
     "identifier": "thejestbookthech20352gut",
-    "story_index": 77,
-    "title": "الحيلة والسياسي الجسور",
-    "key": "thejestbookthech20352gut#77",
-    "title_fp": "الحيلةوالسياسيالجسور"
+    "story_index": 78,
+    "title": "لسانٌ مخطوف ومطايَبة",
+    "key": "thejestbookthech20352gut#78",
+    "title_fp": "لسانمخطوفومطايبة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
