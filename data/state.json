@@ -152,7 +152,8 @@
     "thejestbookthech20352gut#80",
     "thejestbookthech20352gut#81",
     "thejestbookthech20352gut#82",
-    "thejestbookthech20352gut#83"
+    "thejestbookthech20352gut#83",
+    "jestbookchoicest00lemo#2"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -290,15 +291,16 @@
     "ابتسامةفيوجهالموت",
     "محامولندنوالشياطين",
     "علبةالتبغوالردالصامت",
-    "تجربةماكدانيال"
+    "تجربةماكدانيال",
+    "قبلةالدين"
   ],
   "last_story": {
     "date": "2026-10-24",
-    "identifier": "thejestbookthech20352gut",
-    "story_index": 83,
-    "title": "تجربة ماك دانيال",
-    "key": "thejestbookthech20352gut#83",
-    "title_fp": "تجربةماكدانيال"
+    "identifier": "jestbookchoicest00lemo",
+    "story_index": 2,
+    "title": "قبلة الدَّين",
+    "key": "jestbookchoicest00lemo#2",
+    "title_fp": "قبلةالدين"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
