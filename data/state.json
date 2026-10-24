@@ -153,7 +153,8 @@
     "thejestbookthech20352gut#81",
     "thejestbookthech20352gut#82",
     "thejestbookthech20352gut#83",
-    "jestbookchoicest00lemo#2"
+    "jestbookchoicest00lemo#2",
+    "thejestbookthech20352gut#84"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -292,15 +293,16 @@
     "محامولندنوالشياطين",
     "علبةالتبغوالردالصامت",
     "تجربةماكدانيال",
-    "قبلةالدين"
+    "قبلةالدين",
+    "الأعرجوالرهانالفطن"
   ],
   "last_story": {
     "date": "2026-10-24",
-    "identifier": "jestbookchoicest00lemo",
-    "story_index": 2,
-    "title": "قبلة الدَّين",
-    "key": "jestbookchoicest00lemo#2",
-    "title_fp": "قبلةالدين"
+    "identifier": "thejestbookthech20352gut",
+    "story_index": 84,
+    "title": "الأعرج والرهان الفطن",
+    "key": "thejestbookthech20352gut#84",
+    "title_fp": "الأعرجوالرهانالفطن"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
