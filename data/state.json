@@ -161,7 +161,8 @@
     "thejestbookthech20352gut#88",
     "thejestbookthech20352gut#89",
     "jestbookchoicest00lemo#3",
-    "jestbookchoicest00lemo#4"
+    "jestbookchoicest00lemo#4",
+    "jestbookchoicest00lemo#6"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -308,15 +309,16 @@
     "حمارالحكمة",
     "جويت،٢١٤،زيارةبورسنإلىالقارة،٢٧،حقيبةالسفرمقابلالصندوق",
     "صراحةجونسون",
-    "لقاءالقاضيولصالغنم"
+    "لقاءالقاضيولصالغنم",
+    "كفاالصباغونظارةالقاضي"
   ],
   "last_story": {
     "date": "2026-10-26",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 4,
-    "title": "لقاء القاضي ولص الغنم",
-    "key": "jestbookchoicest00lemo#4",
-    "title_fp": "لقاءالقاضيولصالغنم"
+    "story_index": 6,
+    "title": "كفّا الصباغ ونظارة القاضي",
+    "key": "jestbookchoicest00lemo#6",
+    "title_fp": "كفاالصباغونظارةالقاضي"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
