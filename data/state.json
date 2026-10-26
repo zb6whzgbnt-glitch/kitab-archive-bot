@@ -160,7 +160,8 @@
     "thejestbookthech20352gut#87",
     "thejestbookthech20352gut#88",
     "thejestbookthech20352gut#89",
-    "jestbookchoicest00lemo#3"
+    "jestbookchoicest00lemo#3",
+    "jestbookchoicest00lemo#4"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -306,15 +307,16 @@
     "الحوت،١٥٤؛مكتوبعنالاتحاد،١٨٠١،٢٩٨؛الصلصةالأسقفية،١١٤؛مرثاة",
     "حمارالحكمة",
     "جويت،٢١٤،زيارةبورسنإلىالقارة،٢٧،حقيبةالسفرمقابلالصندوق",
-    "صراحةجونسون"
+    "صراحةجونسون",
+    "لقاءالقاضيولصالغنم"
   ],
   "last_story": {
-    "date": "2026-10-25",
+    "date": "2026-10-26",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 3,
-    "title": "صراحة جونسون",
-    "key": "jestbookchoicest00lemo#3",
-    "title_fp": "صراحةجونسون"
+    "story_index": 4,
+    "title": "لقاء القاضي ولص الغنم",
+    "key": "jestbookchoicest00lemo#4",
+    "title_fp": "لقاءالقاضيولصالغنم"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
