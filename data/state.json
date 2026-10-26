@@ -163,7 +163,8 @@
     "jestbookchoicest00lemo#3",
     "jestbookchoicest00lemo#4",
     "jestbookchoicest00lemo#6",
-    "jestbookchoicest00lemo#7"
+    "jestbookchoicest00lemo#7",
+    "jestbookchoicest00lemo#8"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -312,15 +313,16 @@
     "صراحةجونسون",
     "لقاءالقاضيولصالغنم",
     "كفاالصباغونظارةالقاضي",
-    "جرأةاليانور"
+    "جرأةاليانور",
+    "حيلةالسجينلسدادالدين"
   ],
   "last_story": {
-    "date": "2026-10-26",
+    "date": "2026-10-27",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 7,
-    "title": "جرأة اليانور",
-    "key": "jestbookchoicest00lemo#7",
-    "title_fp": "جرأةاليانور"
+    "story_index": 8,
+    "title": "حيلة السجين لسداد الدين",
+    "key": "jestbookchoicest00lemo#8",
+    "title_fp": "حيلةالسجينلسدادالدين"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
