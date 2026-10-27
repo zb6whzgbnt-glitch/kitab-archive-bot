@@ -167,7 +167,8 @@
     "jestbookchoicest00lemo#8",
     "jestbookchoicest00lemo#9",
     "jestbookchoicest00lemo#10",
-    "jestbookchoicest00lemo#11"
+    "jestbookchoicest00lemo#11",
+    "jestbookchoicest00lemo#12"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -320,15 +321,16 @@
     "حيلةالسجينلسدادالدين",
     "الشمعةوالنفخة",
     "صمتأبلغمنصحيفة",
-    "بديهةتوماسوامتحانالحرارةوالبرودة"
+    "بديهةتوماسوامتحانالحرارةوالبرودة",
+    "ملكالصينوأطباءالقصر"
   ],
   "last_story": {
-    "date": "2026-10-27",
+    "date": "2026-10-28",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 11,
-    "title": "بديهة توماس وامتحان الحرارة والبرودة",
-    "key": "jestbookchoicest00lemo#11",
-    "title_fp": "بديهةتوماسوامتحانالحرارةوالبرودة"
+    "story_index": 12,
+    "title": "ملك الصين وأطباء القصر",
+    "key": "jestbookchoicest00lemo#12",
+    "title_fp": "ملكالصينوأطباءالقصر"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
