@@ -164,7 +164,8 @@
     "jestbookchoicest00lemo#4",
     "jestbookchoicest00lemo#6",
     "jestbookchoicest00lemo#7",
-    "jestbookchoicest00lemo#8"
+    "jestbookchoicest00lemo#8",
+    "jestbookchoicest00lemo#9"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -314,15 +315,16 @@
     "لقاءالقاضيولصالغنم",
     "كفاالصباغونظارةالقاضي",
     "جرأةاليانور",
-    "حيلةالسجينلسدادالدين"
+    "حيلةالسجينلسدادالدين",
+    "الشمعةوالنفخة"
   ],
   "last_story": {
     "date": "2026-10-27",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 8,
-    "title": "حيلة السجين لسداد الدين",
-    "key": "jestbookchoicest00lemo#8",
-    "title_fp": "حيلةالسجينلسدادالدين"
+    "story_index": 9,
+    "title": "الشمعة والنفخة",
+    "key": "jestbookchoicest00lemo#9",
+    "title_fp": "الشمعةوالنفخة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
