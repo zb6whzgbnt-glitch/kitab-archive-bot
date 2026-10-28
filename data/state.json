@@ -170,7 +170,8 @@
     "jestbookchoicest00lemo#11",
     "jestbookchoicest00lemo#12",
     "jestbookchoicest00lemo#13",
-    "jestbookchoicest00lemo#14"
+    "jestbookchoicest00lemo#14",
+    "jestbookchoicest00lemo#15"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -326,15 +327,16 @@
     "بديهةتوماسوامتحانالحرارةوالبرودة",
     "ملكالصينوأطباءالقصر",
     "سرجمنجلدثمل",
-    "رجفةالأيديوكبرياءالسادة"
+    "رجفةالأيديوكبرياءالسادة",
+    "حقلالخيباتالثلاث"
   ],
   "last_story": {
     "date": "2026-10-28",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 14,
-    "title": "رجفة الأيدي وكبرياء السادة",
-    "key": "jestbookchoicest00lemo#14",
-    "title_fp": "رجفةالأيديوكبرياءالسادة"
+    "story_index": 15,
+    "title": "حقل الخيبات الثلاث",
+    "key": "jestbookchoicest00lemo#15",
+    "title_fp": "حقلالخيباتالثلاث"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
