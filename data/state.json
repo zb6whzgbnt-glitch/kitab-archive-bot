@@ -169,7 +169,8 @@
     "jestbookchoicest00lemo#10",
     "jestbookchoicest00lemo#11",
     "jestbookchoicest00lemo#12",
-    "jestbookchoicest00lemo#13"
+    "jestbookchoicest00lemo#13",
+    "jestbookchoicest00lemo#14"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -324,15 +325,16 @@
     "صمتأبلغمنصحيفة",
     "بديهةتوماسوامتحانالحرارةوالبرودة",
     "ملكالصينوأطباءالقصر",
-    "سرجمنجلدثمل"
+    "سرجمنجلدثمل",
+    "رجفةالأيديوكبرياءالسادة"
   ],
   "last_story": {
     "date": "2026-10-28",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 13,
-    "title": "سرج من جلد ثمل",
-    "key": "jestbookchoicest00lemo#13",
-    "title_fp": "سرجمنجلدثمل"
+    "story_index": 14,
+    "title": "رجفة الأيدي وكبرياء السادة",
+    "key": "jestbookchoicest00lemo#14",
+    "title_fp": "رجفةالأيديوكبرياءالسادة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
