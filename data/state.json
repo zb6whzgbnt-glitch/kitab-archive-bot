@@ -172,7 +172,8 @@
     "jestbookchoicest00lemo#13",
     "jestbookchoicest00lemo#14",
     "jestbookchoicest00lemo#15",
-    "jestbookchoicest00lemo#16"
+    "jestbookchoicest00lemo#16",
+    "jestbookchoicest00lemo#17"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -330,15 +331,16 @@
     "سرجمنجلدثمل",
     "رجفةالأيديوكبرياءالسادة",
     "حقلالخيباتالثلاث",
-    "تومالمدبر"
+    "تومالمدبر",
+    "عربةالموتىواللوردالجبان"
   ],
   "last_story": {
     "date": "2026-10-29",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 16,
-    "title": "توم المدبّر",
-    "key": "jestbookchoicest00lemo#16",
-    "title_fp": "تومالمدبر"
+    "story_index": 17,
+    "title": "عربة الموتى واللورد الجبان",
+    "key": "jestbookchoicest00lemo#17",
+    "title_fp": "عربةالموتىواللوردالجبان"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
