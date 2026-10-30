@@ -179,7 +179,8 @@
     "jestbookchoicest00lemo#20",
     "jestbookchoicest00lemo#21",
     "jestbookchoicest00lemo#22",
-    "jestbookchoicest00lemo#23"
+    "jestbookchoicest00lemo#23",
+    "jestbookchoicest00lemo#24"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -344,15 +345,16 @@
     "مملكةالمعلم",
     "النبيلوالطاهيالمتكبر",
     "القرويوالسيدفيالخانة",
-    "مائدةالبنياتالسبعة"
+    "مائدةالبنياتالسبعة",
+    "زواجالشتاءوالربيع"
   ],
   "last_story": {
-    "date": "2026-10-30",
+    "date": "2026-10-31",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 23,
-    "title": "مائدة البنيات السبعة",
-    "key": "jestbookchoicest00lemo#23",
-    "title_fp": "مائدةالبنياتالسبعة"
+    "story_index": 24,
+    "title": "زواج الشتاء والربيع",
+    "key": "jestbookchoicest00lemo#24",
+    "title_fp": "زواجالشتاءوالربيع"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
