@@ -177,7 +177,8 @@
     "jestbookchoicest00lemo#18",
     "jestbookchoicest00lemo#19",
     "jestbookchoicest00lemo#20",
-    "jestbookchoicest00lemo#21"
+    "jestbookchoicest00lemo#21",
+    "jestbookchoicest00lemo#22"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -340,15 +341,16 @@
     "الشاعرالمسرحيوالوزيرالمحقق",
     "الممثلوالمديرخدعةالتواضع",
     "مملكةالمعلم",
-    "النبيلوالطاهيالمتكبر"
+    "النبيلوالطاهيالمتكبر",
+    "القرويوالسيدفيالخانة"
   ],
   "last_story": {
     "date": "2026-10-30",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 21,
-    "title": "النبيل والطاهي المتكبر",
-    "key": "jestbookchoicest00lemo#21",
-    "title_fp": "النبيلوالطاهيالمتكبر"
+    "story_index": 22,
+    "title": "القروي والسيد في الخانة",
+    "key": "jestbookchoicest00lemo#22",
+    "title_fp": "القرويوالسيدفيالخانة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
