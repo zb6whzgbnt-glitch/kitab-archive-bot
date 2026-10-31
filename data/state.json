@@ -180,7 +180,8 @@
     "jestbookchoicest00lemo#21",
     "jestbookchoicest00lemo#22",
     "jestbookchoicest00lemo#23",
-    "jestbookchoicest00lemo#24"
+    "jestbookchoicest00lemo#24",
+    "jestbookchoicest00lemo#25"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -346,15 +347,16 @@
     "النبيلوالطاهيالمتكبر",
     "القرويوالسيدفيالخانة",
     "مائدةالبنياتالسبعة",
-    "زواجالشتاءوالربيع"
+    "زواجالشتاءوالربيع",
+    "الزوجالهاربوحدادغريتنا"
   ],
   "last_story": {
     "date": "2026-10-31",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 24,
-    "title": "زواج الشتاء والربيع",
-    "key": "jestbookchoicest00lemo#24",
-    "title_fp": "زواجالشتاءوالربيع"
+    "story_index": 25,
+    "title": "الزوج الهارب وحداد غريتنا",
+    "key": "jestbookchoicest00lemo#25",
+    "title_fp": "الزوجالهاربوحدادغريتنا"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
