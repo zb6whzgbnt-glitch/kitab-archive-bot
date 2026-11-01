@@ -185,7 +185,8 @@
     "joemillerscomple00mill#1",
     "joemillerscomple00mill#2",
     "jestbookchoicest00lemo#26",
-    "jestbookchoicest00lemo#27"
+    "jestbookchoicest00lemo#27",
+    "jestbookchoicest00lemo#28"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -356,15 +357,16 @@
     "دهاءالممثلينوعربةفرساي",
     "بابالحكمة",
     "حيلةالقسواللحمالمقدد",
-    "الضابطوالعلامةالاستفهام"
+    "الضابطوالعلامةالاستفهام",
+    "العمدةالحيفيمدينةالأموات"
   ],
   "last_story": {
     "date": "2026-11-01",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 27,
-    "title": "الضابط وال علامة الاستفهام",
-    "key": "jestbookchoicest00lemo#27",
-    "title_fp": "الضابطوالعلامةالاستفهام"
+    "story_index": 28,
+    "title": "العمدة الحي في مدينة الأموات",
+    "key": "jestbookchoicest00lemo#28",
+    "title_fp": "العمدةالحيفيمدينةالأموات"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
