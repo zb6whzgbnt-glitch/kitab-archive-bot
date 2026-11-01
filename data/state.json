@@ -184,7 +184,8 @@
     "jestbookchoicest00lemo#25",
     "joemillerscomple00mill#1",
     "joemillerscomple00mill#2",
-    "jestbookchoicest00lemo#26"
+    "jestbookchoicest00lemo#26",
+    "jestbookchoicest00lemo#27"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -354,15 +355,16 @@
     "الزوجالهاربوحدادغريتنا",
     "دهاءالممثلينوعربةفرساي",
     "بابالحكمة",
-    "حيلةالقسواللحمالمقدد"
+    "حيلةالقسواللحمالمقدد",
+    "الضابطوالعلامةالاستفهام"
   ],
   "last_story": {
-    "date": "2026-10-31",
+    "date": "2026-11-01",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 26,
-    "title": "حيلة القس واللحم المقدد",
-    "key": "jestbookchoicest00lemo#26",
-    "title_fp": "حيلةالقسواللحمالمقدد"
+    "story_index": 27,
+    "title": "الضابط وال علامة الاستفهام",
+    "key": "jestbookchoicest00lemo#27",
+    "title_fp": "الضابطوالعلامةالاستفهام"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
