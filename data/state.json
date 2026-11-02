@@ -189,7 +189,8 @@
     "jestbookchoicest00lemo#28",
     "jestbookchoicest00lemo#29",
     "jestbookchoicest00lemo#30",
-    "jestbookchoicest00lemo#31"
+    "jestbookchoicest00lemo#31",
+    "jestbookchoicest00lemo#32"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -364,15 +365,16 @@
     "العمدةالحيفيمدينةالأموات",
     "المهندسوالمحاميالداهية",
     "باتريكوالدجاجتان",
-    "القاضيوالدليلالواهي"
+    "القاضيوالدليلالواهي",
+    "رأسالنبيلوحكمةالاعتذار"
   ],
   "last_story": {
     "date": "2026-11-02",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 31,
-    "title": "القاضي والدليل الواهي",
-    "key": "jestbookchoicest00lemo#31",
-    "title_fp": "القاضيوالدليلالواهي"
+    "story_index": 32,
+    "title": "رأس النبيل وحكمة الاعتذار",
+    "key": "jestbookchoicest00lemo#32",
+    "title_fp": "رأسالنبيلوحكمةالاعتذار"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
