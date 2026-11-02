@@ -190,7 +190,8 @@
     "jestbookchoicest00lemo#29",
     "jestbookchoicest00lemo#30",
     "jestbookchoicest00lemo#31",
-    "jestbookchoicest00lemo#32"
+    "jestbookchoicest00lemo#32",
+    "jestbookchoicest00lemo#33"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -366,15 +367,16 @@
     "المهندسوالمحاميالداهية",
     "باتريكوالدجاجتان",
     "القاضيوالدليلالواهي",
-    "رأسالنبيلوحكمةالاعتذار"
+    "رأسالنبيلوحكمةالاعتذار",
+    "مطرقةالكرامة"
   ],
   "last_story": {
-    "date": "2026-11-02",
+    "date": "2026-11-03",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 32,
-    "title": "رأس النبيل وحكمة الاعتذار",
-    "key": "jestbookchoicest00lemo#32",
-    "title_fp": "رأسالنبيلوحكمةالاعتذار"
+    "story_index": 33,
+    "title": "مطرقة الكرامة",
+    "key": "jestbookchoicest00lemo#33",
+    "title_fp": "مطرقةالكرامة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
