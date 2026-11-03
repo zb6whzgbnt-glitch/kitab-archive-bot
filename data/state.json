@@ -193,7 +193,8 @@
     "jestbookchoicest00lemo#32",
     "jestbookchoicest00lemo#33",
     "jestbookchoicest00lemo#34",
-    "jestbookchoicest00lemo#35"
+    "jestbookchoicest00lemo#35",
+    "jestbookchoicest00lemo#36"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -372,15 +373,16 @@
     "رأسالنبيلوحكمةالاعتذار",
     "مطرقةالكرامة",
     "الخطيبالساهيوصدىالهمسات",
-    "حيلةالممثلوالأسقف"
+    "حيلةالممثلوالأسقف",
+    "رسائلمنحصنالوهم"
   ],
   "last_story": {
     "date": "2026-11-03",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 35,
-    "title": "حيلة الممثل والأسقف",
-    "key": "jestbookchoicest00lemo#35",
-    "title_fp": "حيلةالممثلوالأسقف"
+    "story_index": 36,
+    "title": "رسائل من حصن الوهم",
+    "key": "jestbookchoicest00lemo#36",
+    "title_fp": "رسائلمنحصنالوهم"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
