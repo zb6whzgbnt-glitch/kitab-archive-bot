@@ -196,7 +196,8 @@
     "jestbookchoicest00lemo#35",
     "jestbookchoicest00lemo#36",
     "jestbookchoicest00lemo#37",
-    "jestbookchoicest00lemo#38"
+    "jestbookchoicest00lemo#38",
+    "jestbookchoicest00lemo#39"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -378,15 +379,16 @@
     "حيلةالممثلوالأسقف",
     "رسائلمنحصنالوهم",
     "skippedshortalongbill",
-    "تمثالالوزيرالأخضر"
+    "تمثالالوزيرالأخضر",
+    "فطائرالتفاحوفيلسوفالصمت"
   ],
   "last_story": {
-    "date": "2026-11-03",
+    "date": "2026-11-04",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 38,
-    "title": "تمثال الوزير الأخضر",
-    "key": "jestbookchoicest00lemo#38",
-    "title_fp": "تمثالالوزيرالأخضر"
+    "story_index": 39,
+    "title": "فطائر التفاح وفيلسوف الصمت",
+    "key": "jestbookchoicest00lemo#39",
+    "title_fp": "فطائرالتفاحوفيلسوفالصمت"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
