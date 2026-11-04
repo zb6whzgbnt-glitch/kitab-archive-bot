@@ -197,7 +197,8 @@
     "jestbookchoicest00lemo#36",
     "jestbookchoicest00lemo#37",
     "jestbookchoicest00lemo#38",
-    "jestbookchoicest00lemo#39"
+    "jestbookchoicest00lemo#39",
+    "jestbookchoicest00lemo#40"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -380,15 +381,16 @@
     "رسائلمنحصنالوهم",
     "skippedshortalongbill",
     "تمثالالوزيرالأخضر",
-    "فطائرالتفاحوفيلسوفالصمت"
+    "فطائرالتفاحوفيلسوفالصمت",
+    "الجافيفوزبالجوهرة"
   ],
   "last_story": {
     "date": "2026-11-04",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 39,
-    "title": "فطائر التفاح وفيلسوف الصمت",
-    "key": "jestbookchoicest00lemo#39",
-    "title_fp": "فطائرالتفاحوفيلسوفالصمت"
+    "story_index": 40,
+    "title": "الجاف يفوز بالجوهرة",
+    "key": "jestbookchoicest00lemo#40",
+    "title_fp": "الجافيفوزبالجوهرة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
