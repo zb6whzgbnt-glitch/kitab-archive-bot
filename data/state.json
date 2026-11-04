@@ -198,7 +198,8 @@
     "jestbookchoicest00lemo#37",
     "jestbookchoicest00lemo#38",
     "jestbookchoicest00lemo#39",
-    "jestbookchoicest00lemo#40"
+    "jestbookchoicest00lemo#40",
+    "jestbookchoicest00lemo#41"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -382,15 +383,16 @@
     "skippedshortalongbill",
     "تمثالالوزيرالأخضر",
     "فطائرالتفاحوفيلسوفالصمت",
-    "الجافيفوزبالجوهرة"
+    "الجافيفوزبالجوهرة",
+    "مغامرةالرغيفوالكأس"
   ],
   "last_story": {
     "date": "2026-11-04",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 40,
-    "title": "الجاف يفوز بالجوهرة",
-    "key": "jestbookchoicest00lemo#40",
-    "title_fp": "الجافيفوزبالجوهرة"
+    "story_index": 41,
+    "title": "مغامرة الرغيف والكأس",
+    "key": "jestbookchoicest00lemo#41",
+    "title_fp": "مغامرةالرغيفوالكأس"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
