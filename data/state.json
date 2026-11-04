@@ -199,7 +199,8 @@
     "jestbookchoicest00lemo#38",
     "jestbookchoicest00lemo#39",
     "jestbookchoicest00lemo#40",
-    "jestbookchoicest00lemo#41"
+    "jestbookchoicest00lemo#41",
+    "jestbookchoicest00lemo#42"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -384,15 +385,16 @@
     "تمثالالوزيرالأخضر",
     "فطائرالتفاحوفيلسوفالصمت",
     "الجافيفوزبالجوهرة",
-    "مغامرةالرغيفوالكأس"
+    "مغامرةالرغيفوالكأس",
+    "لكمةمقابلساعة"
   ],
   "last_story": {
     "date": "2026-11-04",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 41,
-    "title": "مغامرة الرغيف والكأس",
-    "key": "jestbookchoicest00lemo#41",
-    "title_fp": "مغامرةالرغيفوالكأس"
+    "story_index": 42,
+    "title": "لكمة مقابل ساعة",
+    "key": "jestbookchoicest00lemo#42",
+    "title_fp": "لكمةمقابلساعة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
