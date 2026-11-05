@@ -200,7 +200,8 @@
     "jestbookchoicest00lemo#39",
     "jestbookchoicest00lemo#40",
     "jestbookchoicest00lemo#41",
-    "jestbookchoicest00lemo#42"
+    "jestbookchoicest00lemo#42",
+    "jestbookchoicest00lemo#43"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -386,15 +387,16 @@
     "فطائرالتفاحوفيلسوفالصمت",
     "الجافيفوزبالجوهرة",
     "مغامرةالرغيفوالكأس",
-    "لكمةمقابلساعة"
+    "لكمةمقابلساعة",
+    "خدعةالغرير"
   ],
   "last_story": {
-    "date": "2026-11-04",
+    "date": "2026-11-05",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 42,
-    "title": "لكمة مقابل ساعة",
-    "key": "jestbookchoicest00lemo#42",
-    "title_fp": "لكمةمقابلساعة"
+    "story_index": 43,
+    "title": "خدعة الغرير",
+    "key": "jestbookchoicest00lemo#43",
+    "title_fp": "خدعةالغرير"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
