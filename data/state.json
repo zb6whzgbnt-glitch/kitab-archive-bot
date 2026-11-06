@@ -206,7 +206,8 @@
     "jestbookchoicest00lemo#45",
     "jestbookchoicest00lemo#46",
     "joemillerscomple00mill#3",
-    "jestbookchoicest00lemo#47"
+    "jestbookchoicest00lemo#47",
+    "jestbookchoicest00lemo#48"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -398,15 +399,16 @@
     "كأسالجعةالدافئة",
     "المتفرجالوحيد",
     "زميلالصباوالعدالة",
-    "ساقفوتالخشبيةوبخلالسيدب"
+    "ساقفوتالخشبيةوبخلالسيدب",
+    "حذاءالنقرسوالفرارمنالريف"
   ],
   "last_story": {
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 47,
-    "title": "ساق فوت الخشبية وبخل السيد ب",
-    "key": "jestbookchoicest00lemo#47",
-    "title_fp": "ساقفوتالخشبيةوبخلالسيدب"
+    "story_index": 48,
+    "title": "حذاء النقرس والفرار من الريف",
+    "key": "jestbookchoicest00lemo#48",
+    "title_fp": "حذاءالنقرسوالفرارمنالريف"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
