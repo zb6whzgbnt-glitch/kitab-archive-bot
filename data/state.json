@@ -204,7 +204,8 @@
     "jestbookchoicest00lemo#43",
     "jestbookchoicest00lemo#44",
     "jestbookchoicest00lemo#45",
-    "jestbookchoicest00lemo#46"
+    "jestbookchoicest00lemo#46",
+    "joemillerscomple00mill#3"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -394,15 +395,16 @@
     "خدعةالغرير",
     "انفجارالألحان",
     "كأسالجعةالدافئة",
-    "المتفرجالوحيد"
+    "المتفرجالوحيد",
+    "زميلالصباوالعدالة"
   ],
   "last_story": {
     "date": "2026-11-06",
-    "identifier": "jestbookchoicest00lemo",
-    "story_index": 46,
-    "title": "المتفرج الوحيد",
-    "key": "jestbookchoicest00lemo#46",
-    "title_fp": "المتفرجالوحيد"
+    "identifier": "joemillerscomple00mill",
+    "story_index": 3,
+    "title": "زميل الصبا والعدالة",
+    "key": "joemillerscomple00mill#3",
+    "title_fp": "زميلالصباوالعدالة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
