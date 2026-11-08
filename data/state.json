@@ -213,7 +213,8 @@
     "jestbookchoicest00lemo#50",
     "jestbookchoicest00lemo#51",
     "jestbookchoicest00lemo#52",
-    "jestbookchoicest00lemo#53"
+    "jestbookchoicest00lemo#53",
+    "jestbookchoicest00lemo#54"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -412,15 +413,16 @@
     "نزهةلواحدلالاثنين",
     "الباحثعنالاسموالألقاب",
     "الممثلالسكيروخدعةالمسرح",
-    "حلمهندرسونوكأسالنبيذ"
+    "حلمهندرسونوكأسالنبيذ",
+    "الجبنوالغرور"
   ],
   "last_story": {
     "date": "2026-11-08",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 53,
-    "title": "حلم هندرسون وكأس النبيذ",
-    "key": "jestbookchoicest00lemo#53",
-    "title_fp": "حلمهندرسونوكأسالنبيذ"
+    "story_index": 54,
+    "title": "الجبن والغرور",
+    "key": "jestbookchoicest00lemo#54",
+    "title_fp": "الجبنوالغرور"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
