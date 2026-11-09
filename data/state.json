@@ -216,7 +216,8 @@
     "jestbookchoicest00lemo#53",
     "jestbookchoicest00lemo#54",
     "jestbookchoicest00lemo#55",
-    "jestbookchoicest00lemo#56"
+    "jestbookchoicest00lemo#56",
+    "jestbookchoicest00lemo#57"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -418,15 +419,16 @@
     "حلمهندرسونوكأسالنبيذ",
     "الجبنوالغرور",
     "skippedshortfalseestimate",
-    "قبحيزهرعلىخشبةالمسرح"
+    "قبحيزهرعلىخشبةالمسرح",
+    "القاضيوالمحلفالأصم"
   ],
   "last_story": {
     "date": "2026-11-09",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 56,
-    "title": "قبحٌ يُزهر على خشبة المسرح",
-    "key": "jestbookchoicest00lemo#56",
-    "title_fp": "قبحيزهرعلىخشبةالمسرح"
+    "story_index": 57,
+    "title": "القاضي والمحلف الأصم",
+    "key": "jestbookchoicest00lemo#57",
+    "title_fp": "القاضيوالمحلفالأصم"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
