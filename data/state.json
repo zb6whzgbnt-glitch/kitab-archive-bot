@@ -218,7 +218,8 @@
     "jestbookchoicest00lemo#55",
     "jestbookchoicest00lemo#56",
     "jestbookchoicest00lemo#57",
-    "jestbookchoicest00lemo#58"
+    "jestbookchoicest00lemo#58",
+    "jestbookchoicest00lemo#59"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -422,15 +423,16 @@
     "skippedshortfalseestimate",
     "قبحيزهرعلىخشبةالمسرح",
     "القاضيوالمحلفالأصم",
-    "وليمةالدموع"
+    "وليمةالدموع",
+    "حيلةجيمسسميثالفاشلة"
   ],
   "last_story": {
-    "date": "2026-11-09",
+    "date": "2026-11-10",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 58,
-    "title": "وليمة الدموع",
-    "key": "jestbookchoicest00lemo#58",
-    "title_fp": "وليمةالدموع"
+    "story_index": 59,
+    "title": "حيلة جيمس سميث الفاشلة",
+    "key": "jestbookchoicest00lemo#59",
+    "title_fp": "حيلةجيمسسميثالفاشلة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
