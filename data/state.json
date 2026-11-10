@@ -222,7 +222,10 @@
     "jestbookchoicest00lemo#59",
     "jestbookchoicest00lemo#60",
     "joemillerscomple00mill#5",
-    "jestbookchoicest00lemo#61"
+    "jestbookchoicest00lemo#61",
+    "jestbookchoicest00lemo#62",
+    "jestbookchoicest00lemo#63",
+    "jestbookchoicest00lemo#64"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -430,15 +433,18 @@
     "حيلةجيمسسميثالفاشلة",
     "حكمةالعجوزوسلطةالشاب",
     "skippedshortanenglishlabourerincheshireattemptingtodrownhimselfa",
-    "الرحالةالكذابونمرالتبت"
+    "الرحالةالكذابونمرالتبت",
+    "skippedshortwhymydearsiransweredthewordylawyeriwas",
+    "skippedshortmcxlvpracticalretortinacountrytheatretherewereonly",
+    "مزاحسيلوينوجنونالشبه"
   ],
   "last_story": {
     "date": "2026-11-10",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 61,
-    "title": "الرحالة الكذاب ونمر التبت",
-    "key": "jestbookchoicest00lemo#61",
-    "title_fp": "الرحالةالكذابونمرالتبت"
+    "story_index": 64,
+    "title": "مُزاح سيلوين وجنون الشبه",
+    "key": "jestbookchoicest00lemo#64",
+    "title_fp": "مزاحسيلوينوجنونالشبه"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
