@@ -230,7 +230,8 @@
     "jestbookchoicest00lemo#66",
     "jestbookchoicest00lemo#67",
     "jestbookchoicest00lemo#68",
-    "jestbookchoicest00lemo#69"
+    "jestbookchoicest00lemo#69",
+    "jestbookchoicest00lemo#70"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -446,15 +447,16 @@
     "الدوقالحديديوموظفوالأعذار",
     "محنةريتشاردوالقضبانالعنيدة",
     "البقرةوالحرسيوالكبرياءالجريح",
-    "قفزةفوقالدوق"
+    "قفزةفوقالدوق",
+    "ضحكاتاللؤلؤ"
   ],
   "last_story": {
     "date": "2026-11-11",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 69,
-    "title": "قفزة فوق الدوق",
-    "key": "jestbookchoicest00lemo#69",
-    "title_fp": "قفزةفوقالدوق"
+    "story_index": 70,
+    "title": "ضحكات اللؤلؤ",
+    "key": "jestbookchoicest00lemo#70",
+    "title_fp": "ضحكاتاللؤلؤ"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
