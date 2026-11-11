@@ -231,7 +231,8 @@
     "jestbookchoicest00lemo#67",
     "jestbookchoicest00lemo#68",
     "jestbookchoicest00lemo#69",
-    "jestbookchoicest00lemo#70"
+    "jestbookchoicest00lemo#70",
+    "jestbookchoicest00lemo#71"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -448,15 +449,16 @@
     "محنةريتشاردوالقضبانالعنيدة",
     "البقرةوالحرسيوالكبرياءالجريح",
     "قفزةفوقالدوق",
-    "ضحكاتاللؤلؤ"
+    "ضحكاتاللؤلؤ",
+    "وجهالشريفوحسابالمساح"
   ],
   "last_story": {
-    "date": "2026-11-11",
+    "date": "2026-11-12",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 70,
-    "title": "ضحكات اللؤلؤ",
-    "key": "jestbookchoicest00lemo#70",
-    "title_fp": "ضحكاتاللؤلؤ"
+    "story_index": 71,
+    "title": "وجه الشريف وحساب المساح",
+    "key": "jestbookchoicest00lemo#71",
+    "title_fp": "وجهالشريفوحسابالمساح"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
