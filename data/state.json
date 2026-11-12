@@ -232,7 +232,8 @@
     "jestbookchoicest00lemo#68",
     "jestbookchoicest00lemo#69",
     "jestbookchoicest00lemo#70",
-    "jestbookchoicest00lemo#71"
+    "jestbookchoicest00lemo#71",
+    "jestbookchoicest00lemo#72"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -450,15 +451,16 @@
     "البقرةوالحرسيوالكبرياءالجريح",
     "قفزةفوقالدوق",
     "ضحكاتاللؤلؤ",
-    "وجهالشريفوحسابالمساح"
+    "وجهالشريفوحسابالمساح",
+    "حملالضيفات"
   ],
   "last_story": {
     "date": "2026-11-12",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 71,
-    "title": "وجه الشريف وحساب المساح",
-    "key": "jestbookchoicest00lemo#71",
-    "title_fp": "وجهالشريفوحسابالمساح"
+    "story_index": 72,
+    "title": "حمل الضيفات",
+    "key": "jestbookchoicest00lemo#72",
+    "title_fp": "حملالضيفات"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
