@@ -235,7 +235,9 @@
     "jestbookchoicest00lemo#71",
     "jestbookchoicest00lemo#72",
     "jestbookchoicest00lemo#73",
-    "jestbookchoicest00lemo#74"
+    "jestbookchoicest00lemo#74",
+    "jestbookchoicest00lemo#75",
+    "jestbookchoicest00lemo#76"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -456,15 +458,17 @@
     "وجهالشريفوحسابالمساح",
     "حملالضيفات",
     "skippednonnarrativemcccviinadvertenceandepicurismwhenthedukeofw",
-    "فطنةالقاضيووصيةالغني"
+    "فطنةالقاضيووصيةالغني",
+    "skippedshortwhysojackwhysoimperfectlyatmyeasealas",
+    "سكرةالبحاروجرةالحاكم"
   ],
   "last_story": {
-    "date": "2026-11-12",
+    "date": "2026-11-13",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 74,
-    "title": "فطنة القاضي ووصية الغني",
-    "key": "jestbookchoicest00lemo#74",
-    "title_fp": "فطنةالقاضيووصيةالغني"
+    "story_index": 76,
+    "title": "سكرة البحار وجرة الحاكم",
+    "key": "jestbookchoicest00lemo#76",
+    "title_fp": "سكرةالبحاروجرةالحاكم"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
