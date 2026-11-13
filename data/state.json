@@ -241,7 +241,8 @@
     "jestbookchoicest00lemo#77",
     "jestbookchoicest00lemo#78",
     "jestbookchoicest00lemo#79",
-    "jestbookchoicest00lemo#80"
+    "jestbookchoicest00lemo#80",
+    "jestbookchoicest00lemo#81"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -468,15 +469,16 @@
     "المحاميالصغيروالضخمالمغرور",
     "خديعةالوفاء",
     "حيلةسارة",
-    "مقعدانورحلةعجيبة"
+    "مقعدانورحلةعجيبة",
+    "الممثلواللورد"
   ],
   "last_story": {
-    "date": "2026-11-13",
+    "date": "2026-11-14",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 80,
-    "title": "مقعدان ورحلة عجيبة",
-    "key": "jestbookchoicest00lemo#80",
-    "title_fp": "مقعدانورحلةعجيبة"
+    "story_index": 81,
+    "title": "الممثل واللورد",
+    "key": "jestbookchoicest00lemo#81",
+    "title_fp": "الممثلواللورد"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
