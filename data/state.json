@@ -243,7 +243,8 @@
     "jestbookchoicest00lemo#79",
     "jestbookchoicest00lemo#80",
     "jestbookchoicest00lemo#81",
-    "joemillerscomple00mill#6"
+    "joemillerscomple00mill#6",
+    "jestbookchoicest00lemo#82"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -472,15 +473,16 @@
     "حيلةسارة",
     "مقعدانورحلةعجيبة",
     "الممثلواللورد",
-    "الملحدوالموج"
+    "الملحدوالموج",
+    "مغنيالأزقة"
   ],
   "last_story": {
     "date": "2026-11-14",
-    "identifier": "joemillerscomple00mill",
-    "story_index": 6,
-    "title": "الملحد والموج",
-    "key": "joemillerscomple00mill#6",
-    "title_fp": "الملحدوالموج"
+    "identifier": "jestbookchoicest00lemo",
+    "story_index": 82,
+    "title": "مغني الأزقة",
+    "key": "jestbookchoicest00lemo#82",
+    "title_fp": "مغنيالأزقة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
