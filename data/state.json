@@ -244,7 +244,8 @@
     "jestbookchoicest00lemo#80",
     "jestbookchoicest00lemo#81",
     "joemillerscomple00mill#6",
-    "jestbookchoicest00lemo#82"
+    "jestbookchoicest00lemo#82",
+    "jestbookchoicest00lemo#83"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -474,15 +475,16 @@
     "مقعدانورحلةعجيبة",
     "الممثلواللورد",
     "الملحدوالموج",
-    "مغنيالأزقة"
+    "مغنيالأزقة",
+    "القائدوالماءالمكروه"
   ],
   "last_story": {
     "date": "2026-11-14",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 82,
-    "title": "مغني الأزقة",
-    "key": "jestbookchoicest00lemo#82",
-    "title_fp": "مغنيالأزقة"
+    "story_index": 83,
+    "title": "القائد والماء المكروه",
+    "key": "jestbookchoicest00lemo#83",
+    "title_fp": "القائدوالماءالمكروه"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
