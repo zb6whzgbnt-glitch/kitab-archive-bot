@@ -247,7 +247,8 @@
     "jestbookchoicest00lemo#82",
     "jestbookchoicest00lemo#83",
     "jestbookchoicest00lemo#84",
-    "jestbookchoicest00lemo#85"
+    "jestbookchoicest00lemo#85",
+    "jestbookchoicest00lemo#86"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -480,15 +481,16 @@
     "مغنيالأزقة",
     "القائدوالماءالمكروه",
     "ضيفالصمت",
-    "استراحةالفكين"
+    "استراحةالفكين",
+    "الطبيبودواؤهالمالح"
   ],
   "last_story": {
     "date": "2026-11-15",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 85,
-    "title": "استراحة الفكين",
-    "key": "jestbookchoicest00lemo#85",
-    "title_fp": "استراحةالفكين"
+    "story_index": 86,
+    "title": "الطبيب ودواؤه المالح",
+    "key": "jestbookchoicest00lemo#86",
+    "title_fp": "الطبيبودواؤهالمالح"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
