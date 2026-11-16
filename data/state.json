@@ -251,7 +251,8 @@
     "jestbookchoicest00lemo#86",
     "jestbookchoicest00lemo#87",
     "jestbookchoicest00lemo#88",
-    "jestbookchoicest00lemo#89"
+    "jestbookchoicest00lemo#89",
+    "jestbookchoicest00lemo#90"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -488,15 +489,16 @@
     "الطبيبودواؤهالمالح",
     "باديالأيرلنديونساءالستبلدات",
     "معركةرأسالدار",
-    "الخطيبالجافواللسانالرطب"
+    "الخطيبالجافواللسانالرطب",
+    "علبةالتبغوالدرسالقاسي"
   ],
   "last_story": {
     "date": "2026-11-16",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 89,
-    "title": "الخطيب الجاف واللسان الرطب",
-    "key": "jestbookchoicest00lemo#89",
-    "title_fp": "الخطيبالجافواللسانالرطب"
+    "story_index": 90,
+    "title": "علبة التبغ والدرس القاسي",
+    "key": "jestbookchoicest00lemo#90",
+    "title_fp": "علبةالتبغوالدرسالقاسي"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
