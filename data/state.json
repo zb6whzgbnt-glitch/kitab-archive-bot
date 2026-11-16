@@ -252,7 +252,8 @@
     "jestbookchoicest00lemo#87",
     "jestbookchoicest00lemo#88",
     "jestbookchoicest00lemo#89",
-    "jestbookchoicest00lemo#90"
+    "jestbookchoicest00lemo#90",
+    "jestbookchoicest00lemo#91"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -490,15 +491,16 @@
     "باديالأيرلنديونساءالستبلدات",
     "معركةرأسالدار",
     "الخطيبالجافواللسانالرطب",
-    "علبةالتبغوالدرسالقاسي"
+    "علبةالتبغوالدرسالقاسي",
+    "طاقيةالنوموجهادالبطن"
   ],
   "last_story": {
-    "date": "2026-11-16",
+    "date": "2026-11-17",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 90,
-    "title": "علبة التبغ والدرس القاسي",
-    "key": "jestbookchoicest00lemo#90",
-    "title_fp": "علبةالتبغوالدرسالقاسي"
+    "story_index": 91,
+    "title": "طاقية النوم وجهاد البطن",
+    "key": "jestbookchoicest00lemo#91",
+    "title_fp": "طاقيةالنوموجهادالبطن"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
