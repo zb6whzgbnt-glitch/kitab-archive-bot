@@ -253,7 +253,9 @@
     "jestbookchoicest00lemo#88",
     "jestbookchoicest00lemo#89",
     "jestbookchoicest00lemo#90",
-    "jestbookchoicest00lemo#91"
+    "jestbookchoicest00lemo#91",
+    "jestbookchoicest00lemo#92",
+    "jestbookchoicest00lemo#93"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -492,15 +494,17 @@
     "معركةرأسالدار",
     "الخطيبالجافواللسانالرطب",
     "علبةالتبغوالدرسالقاسي",
-    "طاقيةالنوموجهادالبطن"
+    "طاقيةالنوموجهادالبطن",
+    "skippedshortmryorkeinthankinghimsaidsirihavegreatrea",
+    "مساجلةعلىالرصيف"
   ],
   "last_story": {
     "date": "2026-11-17",
     "identifier": "jestbookchoicest00lemo",
-    "story_index": 91,
-    "title": "طاقية النوم وجهاد البطن",
-    "key": "jestbookchoicest00lemo#91",
-    "title_fp": "طاقيةالنوموجهادالبطن"
+    "story_index": 93,
+    "title": "مساجلة على الرصيف",
+    "key": "jestbookchoicest00lemo#93",
+    "title_fp": "مساجلةعلىالرصيف"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
