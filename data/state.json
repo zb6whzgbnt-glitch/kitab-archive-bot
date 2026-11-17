@@ -259,7 +259,13 @@
     "jestbookchoicest00lemo#94",
     "jestbookchoicest00lemo#95",
     "jestbookchoicest00lemo#96",
-    "jestbookchoicest00lemo#97"
+    "jestbookchoicest00lemo#97",
+    "jestbookchoicest00lemo#98",
+    "joemillerscomple00mill#7",
+    "joemillerscomple00mill#8",
+    "joemillerscomple00mill#9",
+    "joemillerscomple00mill#10",
+    "joemillerscomple00mill#11"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -504,15 +510,21 @@
     "skippednonnarrativeacarefulperusalofthejesthookwillbehis",
     "skippednonnarrativebringinghismandownbroadsheethintabrokenheada",
     "skippednonnarrative44farrentheactoron",
-    "حبةرملوملاحظاتعلىالهامش"
+    "حبةرملوملاحظاتعلىالهامش",
+    "skippednonnarrative40scotchcaution119scotchmedium130scotchpenetra",
+    "skippedshortafrenchmanhavingaviolentpaininhisbreastandstomach",
+    "skippedshort74thefollowingbillwasactuallyfurnishedtoacitizenof",
+    "skippedshort89apfrsonwaasayingnotatalltotliepur",
+    "skippedshortalbanswheretheyfoundthemselvesmiserablydeceived",
+    "دهاءاللصوصوبخلاءالريف"
   ],
   "last_story": {
     "date": "2026-11-17",
-    "identifier": "jestbookchoicest00lemo",
-    "story_index": 97,
-    "title": "حبة رمل وملاحظات على الهامش",
-    "key": "jestbookchoicest00lemo#97",
-    "title_fp": "حبةرملوملاحظاتعلىالهامش"
+    "identifier": "joemillerscomple00mill",
+    "story_index": 11,
+    "title": "دهاء اللصوص وبخلاء الريف",
+    "key": "joemillerscomple00mill#11",
+    "title_fp": "دهاءاللصوصوبخلاءالريف"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
