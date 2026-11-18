@@ -269,7 +269,9 @@
     "joemillerscomple00mill#12",
     "joemillerscomple00mill#13",
     "joemillerscomple00mill#14",
-    "joemillerscomple00mill#15"
+    "joemillerscomple00mill#15",
+    "joemillerscomple00mill#16",
+    "joemillerscomple00mill#17"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -524,15 +526,17 @@
     "حيلةالقلبالجريء",
     "الأسيرالمدعي",
     "سذاجةالأرملةومكرالأسقف",
-    "نزهةالبخيلالوهمية"
+    "نزهةالبخيلالوهمية",
+    "skippedshortliewasrepeatedlydenied",
+    "الخاطبالجريءوالطبيبالمأزوم"
   ],
   "last_story": {
-    "date": "2026-11-18",
+    "date": "2026-11-19",
     "identifier": "joemillerscomple00mill",
-    "story_index": 15,
-    "title": "نزهة البخيل الوهمية",
-    "key": "joemillerscomple00mill#15",
-    "title_fp": "نزهةالبخيلالوهمية"
+    "story_index": 17,
+    "title": "الخاطب الجريء والطبيب المأزوم",
+    "key": "joemillerscomple00mill#17",
+    "title_fp": "الخاطبالجريءوالطبيبالمأزوم"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
