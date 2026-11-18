@@ -266,7 +266,8 @@
     "joemillerscomple00mill#9",
     "joemillerscomple00mill#10",
     "joemillerscomple00mill#11",
-    "joemillerscomple00mill#12"
+    "joemillerscomple00mill#12",
+    "joemillerscomple00mill#13"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -518,15 +519,16 @@
     "skippedshort89apfrsonwaasayingnotatalltotliepur",
     "skippedshortalbanswheretheyfoundthemselvesmiserablydeceived",
     "دهاءاللصوصوبخلاءالريف",
-    "حيلةالقلبالجريء"
+    "حيلةالقلبالجريء",
+    "الأسيرالمدعي"
   ],
   "last_story": {
     "date": "2026-11-18",
     "identifier": "joemillerscomple00mill",
-    "story_index": 12,
-    "title": "حيلة القلب الجريء",
-    "key": "joemillerscomple00mill#12",
-    "title_fp": "حيلةالقلبالجريء"
+    "story_index": 13,
+    "title": "الأسير المُدَّعي",
+    "key": "joemillerscomple00mill#13",
+    "title_fp": "الأسيرالمدعي"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
