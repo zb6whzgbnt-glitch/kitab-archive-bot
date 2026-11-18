@@ -267,7 +267,8 @@
     "joemillerscomple00mill#10",
     "joemillerscomple00mill#11",
     "joemillerscomple00mill#12",
-    "joemillerscomple00mill#13"
+    "joemillerscomple00mill#13",
+    "joemillerscomple00mill#14"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -520,15 +521,16 @@
     "skippedshortalbanswheretheyfoundthemselvesmiserablydeceived",
     "دهاءاللصوصوبخلاءالريف",
     "حيلةالقلبالجريء",
-    "الأسيرالمدعي"
+    "الأسيرالمدعي",
+    "سذاجةالأرملةومكرالأسقف"
   ],
   "last_story": {
     "date": "2026-11-18",
     "identifier": "joemillerscomple00mill",
-    "story_index": 13,
-    "title": "الأسير المُدَّعي",
-    "key": "joemillerscomple00mill#13",
-    "title_fp": "الأسيرالمدعي"
+    "story_index": 14,
+    "title": "سذاجة الأرملة ومكر الأسقف",
+    "key": "joemillerscomple00mill#14",
+    "title_fp": "سذاجةالأرملةومكرالأسقف"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
