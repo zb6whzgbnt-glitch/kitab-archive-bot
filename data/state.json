@@ -273,7 +273,8 @@
     "joemillerscomple00mill#16",
     "joemillerscomple00mill#17",
     "joemillerscomple00mill#18",
-    "joemillerscomple00mill#19"
+    "joemillerscomple00mill#19",
+    "joemillerscomple00mill#20"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -532,15 +533,16 @@
     "skippedshortliewasrepeatedlydenied",
     "الخاطبالجريءوالطبيبالمأزوم",
     "دجاجةالمنطق",
-    "المحفةالطائرة"
+    "المحفةالطائرة",
+    "القاضيالعادلووزيرالمالالطامع"
   ],
   "last_story": {
     "date": "2026-11-19",
     "identifier": "joemillerscomple00mill",
-    "story_index": 19,
-    "title": "المحفة الطائرة",
-    "key": "joemillerscomple00mill#19",
-    "title_fp": "المحفةالطائرة"
+    "story_index": 20,
+    "title": "القاضي العادل ووزير المال الطامع",
+    "key": "joemillerscomple00mill#20",
+    "title_fp": "القاضيالعادلووزيرالمالالطامع"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
