@@ -274,7 +274,8 @@
     "joemillerscomple00mill#17",
     "joemillerscomple00mill#18",
     "joemillerscomple00mill#19",
-    "joemillerscomple00mill#20"
+    "joemillerscomple00mill#20",
+    "joemillerscomple00mill#21"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -534,15 +535,16 @@
     "الخاطبالجريءوالطبيبالمأزوم",
     "دجاجةالمنطق",
     "المحفةالطائرة",
-    "القاضيالعادلووزيرالمالالطامع"
+    "القاضيالعادلووزيرالمالالطامع",
+    "طمعالقسوعقاباللورد"
   ],
   "last_story": {
-    "date": "2026-11-19",
+    "date": "2026-11-20",
     "identifier": "joemillerscomple00mill",
-    "story_index": 20,
-    "title": "القاضي العادل ووزير المال الطامع",
-    "key": "joemillerscomple00mill#20",
-    "title_fp": "القاضيالعادلووزيرالمالالطامع"
+    "story_index": 21,
+    "title": "طمع القس وعقاب اللورد",
+    "key": "joemillerscomple00mill#21",
+    "title_fp": "طمعالقسوعقاباللورد"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
