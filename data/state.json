@@ -278,7 +278,8 @@
     "joemillerscomple00mill#21",
     "joemillerscomple00mill#22",
     "joemillerscomple00mill#23",
-    "joemillerscomple00mill#24"
+    "joemillerscomple00mill#24",
+    "joemillerscomple00mill#25"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -542,15 +543,16 @@
     "طمعالقسوعقاباللورد",
     "البدينالناجيبحيلةاللسان",
     "القسوالوظيفةالمستحيلة",
-    "السعلةالتيأضحكتلندن"
+    "السعلةالتيأضحكتلندن",
+    "الحلاقوالقسيسوحيلةالعشور"
   ],
   "last_story": {
-    "date": "2026-11-20",
+    "date": "2026-11-21",
     "identifier": "joemillerscomple00mill",
-    "story_index": 24,
-    "title": "السعلة التي أضحكت لندن",
-    "key": "joemillerscomple00mill#24",
-    "title_fp": "السعلةالتيأضحكتلندن"
+    "story_index": 25,
+    "title": "الحلاق والقسيس وحيلة العشور",
+    "key": "joemillerscomple00mill#25",
+    "title_fp": "الحلاقوالقسيسوحيلةالعشور"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
