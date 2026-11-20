@@ -276,7 +276,8 @@
     "joemillerscomple00mill#19",
     "joemillerscomple00mill#20",
     "joemillerscomple00mill#21",
-    "joemillerscomple00mill#22"
+    "joemillerscomple00mill#22",
+    "joemillerscomple00mill#23"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -538,15 +539,16 @@
     "المحفةالطائرة",
     "القاضيالعادلووزيرالمالالطامع",
     "طمعالقسوعقاباللورد",
-    "البدينالناجيبحيلةاللسان"
+    "البدينالناجيبحيلةاللسان",
+    "القسوالوظيفةالمستحيلة"
   ],
   "last_story": {
     "date": "2026-11-20",
     "identifier": "joemillerscomple00mill",
-    "story_index": 22,
-    "title": "البدين الناجي بحيلة اللسان",
-    "key": "joemillerscomple00mill#22",
-    "title_fp": "البدينالناجيبحيلةاللسان"
+    "story_index": 23,
+    "title": "القس والوظيفة المستحيلة",
+    "key": "joemillerscomple00mill#23",
+    "title_fp": "القسوالوظيفةالمستحيلة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
