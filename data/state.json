@@ -283,7 +283,8 @@
     "joemillerscomple00mill#26",
     "joemillerscomple00mill#27",
     "joemillerscomple00mill#28",
-    "joemillerscomple00mill#29"
+    "joemillerscomple00mill#29",
+    "joemillerscomple00mill#30"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -552,15 +553,16 @@
     "قردالبزلاءوحارسجبلطارق",
     "جواربالطبيبالملطخة",
     "فرسالعجب",
-    "خدعةالبطاطسفيمجلسالنواب"
+    "خدعةالبطاطسفيمجلسالنواب",
+    "باتوالحصنالنائم"
   ],
   "last_story": {
-    "date": "2026-11-21",
+    "date": "2026-11-22",
     "identifier": "joemillerscomple00mill",
-    "story_index": 29,
-    "title": "خدعة البطاطس في مجلس النواب",
-    "key": "joemillerscomple00mill#29",
-    "title_fp": "خدعةالبطاطسفيمجلسالنواب"
+    "story_index": 30,
+    "title": "بات والحصن النائم",
+    "key": "joemillerscomple00mill#30",
+    "title_fp": "باتوالحصنالنائم"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
