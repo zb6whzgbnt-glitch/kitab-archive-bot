@@ -281,7 +281,8 @@
     "joemillerscomple00mill#24",
     "joemillerscomple00mill#25",
     "joemillerscomple00mill#26",
-    "joemillerscomple00mill#27"
+    "joemillerscomple00mill#27",
+    "joemillerscomple00mill#28"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -548,15 +549,16 @@
     "السعلةالتيأضحكتلندن",
     "الحلاقوالقسيسوحيلةالعشور",
     "قردالبزلاءوحارسجبلطارق",
-    "جواربالطبيبالملطخة"
+    "جواربالطبيبالملطخة",
+    "فرسالعجب"
   ],
   "last_story": {
     "date": "2026-11-21",
     "identifier": "joemillerscomple00mill",
-    "story_index": 27,
-    "title": "جوارب الطبيب الملطخة",
-    "key": "joemillerscomple00mill#27",
-    "title_fp": "جواربالطبيبالملطخة"
+    "story_index": 28,
+    "title": "فرس العجب",
+    "key": "joemillerscomple00mill#28",
+    "title_fp": "فرسالعجب"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
