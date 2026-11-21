@@ -282,7 +282,8 @@
     "joemillerscomple00mill#25",
     "joemillerscomple00mill#26",
     "joemillerscomple00mill#27",
-    "joemillerscomple00mill#28"
+    "joemillerscomple00mill#28",
+    "joemillerscomple00mill#29"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -550,15 +551,16 @@
     "الحلاقوالقسيسوحيلةالعشور",
     "قردالبزلاءوحارسجبلطارق",
     "جواربالطبيبالملطخة",
-    "فرسالعجب"
+    "فرسالعجب",
+    "خدعةالبطاطسفيمجلسالنواب"
   ],
   "last_story": {
     "date": "2026-11-21",
     "identifier": "joemillerscomple00mill",
-    "story_index": 28,
-    "title": "فرس العجب",
-    "key": "joemillerscomple00mill#28",
-    "title_fp": "فرسالعجب"
+    "story_index": 29,
+    "title": "خدعة البطاطس في مجلس النواب",
+    "key": "joemillerscomple00mill#29",
+    "title_fp": "خدعةالبطاطسفيمجلسالنواب"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
