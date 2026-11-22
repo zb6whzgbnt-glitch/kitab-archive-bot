@@ -287,7 +287,8 @@
     "joemillerscomple00mill#30",
     "joemillerscomple00mill#31",
     "joemillerscomple00mill#32",
-    "joemillerscomple00mill#33"
+    "joemillerscomple00mill#33",
+    "hundredmerrytale00hazl#9"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -560,15 +561,16 @@
     "باتوالحصنالنائم",
     "skippedshortcompletelyoutoftheirlatitudewethungryandexhausted",
     "skippednonnarrativetheinsultedandindignantbardinstantlyutteredthe",
-    "خبثالحانوتيوذكاءالقاضي"
+    "خبثالحانوتيوذكاءالقاضي",
+    "الأعرابيوالثعلبوالقاضي"
   ],
   "last_story": {
     "date": "2026-11-22",
-    "identifier": "joemillerscomple00mill",
-    "story_index": 33,
-    "title": "خبث الحانوتي وذكاء القاضي",
-    "key": "joemillerscomple00mill#33",
-    "title_fp": "خبثالحانوتيوذكاءالقاضي"
+    "identifier": "hundredmerrytale00hazl",
+    "story_index": 9,
+    "title": "الأعرابي والثعلب والقاضي",
+    "key": "hundredmerrytale00hazl#9",
+    "title_fp": "الأعرابيوالثعلبوالقاضي"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
@@ -585,7 +587,8 @@
     "englishjestsanda49370gut",
     "thejestbookthech20352gut",
     "jestbookchoicest00lemo",
-    "joemillerscomple00mill"
+    "joemillerscomple00mill",
+    "hundredmerrytale00hazl"
   ],
   "used_english": [
     "treasureisland00stevrich",
