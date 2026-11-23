@@ -290,7 +290,11 @@
     "joemillerscomple00mill#33",
     "hundredmerrytale00hazl#9",
     "joemillerscomple00mill#34",
-    "joemillerscomple00mill#35"
+    "joemillerscomple00mill#35",
+    "joemillerscomple00mill#36",
+    "joemillerscomple00mill#37",
+    "joemillerscomple00mill#38",
+    "joemillerscomple00mill#39"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -566,15 +570,19 @@
     "خبثالحانوتيوذكاءالقاضي",
     "الأعرابيوالثعلبوالقاضي",
     "الكريموصدىالكرم",
-    "نوادرالمجالسوالمحاكم"
+    "نوادرالمجالسوالمحاكم",
+    "skippedshorttwosportingmendiscoursingaboutahorsethathadlosta",
+    "skippedshort409afashionablecouutcssaskingayoungnoblemanwhichhe",
+    "skippedshortanirishmanhavingboughtasheepsheadhadbeentoa",
+    "الكرنبةوالقدر"
   ],
   "last_story": {
     "date": "2026-11-23",
     "identifier": "joemillerscomple00mill",
-    "story_index": 35,
-    "title": "نوادر المجالس والمحاكم",
-    "key": "joemillerscomple00mill#35",
-    "title_fp": "نوادرالمجالسوالمحاكم"
+    "story_index": 39,
+    "title": "الكرنبة والقدر",
+    "key": "joemillerscomple00mill#39",
+    "title_fp": "الكرنبةوالقدر"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
