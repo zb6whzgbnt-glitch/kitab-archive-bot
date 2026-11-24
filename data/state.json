@@ -299,7 +299,8 @@
     "cu31924013155068#9",
     "joemillerscomple00mill#41",
     "joemillerscomple00mill#42",
-    "joemillerscomple00mill#43"
+    "joemillerscomple00mill#43",
+    "joemillerscomple00mill#44"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -584,15 +585,16 @@
     "ثوبطائروعدالةضاحكة",
     "حيلةالأخوانفيجزيرةالنخاسة",
     "skippednonnarrativewhenthefirsteditionofthomsonsseasonscameout",
-    "خدعةالمشنقة"
+    "خدعةالمشنقة",
+    "المشدالمبتلوالخادمالمطيع"
   ],
   "last_story": {
     "date": "2026-11-24",
     "identifier": "joemillerscomple00mill",
-    "story_index": 43,
-    "title": "خدعة المشنقة",
-    "key": "joemillerscomple00mill#43",
-    "title_fp": "خدعةالمشنقة"
+    "story_index": 44,
+    "title": "المشد المبتل والخادم المطيع",
+    "key": "joemillerscomple00mill#44",
+    "title_fp": "المشدالمبتلوالخادمالمطيع"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
