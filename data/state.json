@@ -300,7 +300,8 @@
     "joemillerscomple00mill#41",
     "joemillerscomple00mill#42",
     "joemillerscomple00mill#43",
-    "joemillerscomple00mill#44"
+    "joemillerscomple00mill#44",
+    "joemillerscomple00mill#45"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -586,15 +587,16 @@
     "حيلةالأخوانفيجزيرةالنخاسة",
     "skippednonnarrativewhenthefirsteditionofthomsonsseasonscameout",
     "خدعةالمشنقة",
-    "المشدالمبتلوالخادمالمطيع"
+    "المشدالمبتلوالخادمالمطيع",
+    "لسانالدكتوروقرصاتجاريك"
   ],
   "last_story": {
-    "date": "2026-11-24",
+    "date": "2026-11-25",
     "identifier": "joemillerscomple00mill",
-    "story_index": 44,
-    "title": "المشد المبتل والخادم المطيع",
-    "key": "joemillerscomple00mill#44",
-    "title_fp": "المشدالمبتلوالخادمالمطيع"
+    "story_index": 45,
+    "title": "لسان الدكتور وقرصات جاريك",
+    "key": "joemillerscomple00mill#45",
+    "title_fp": "لسانالدكتوروقرصاتجاريك"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
