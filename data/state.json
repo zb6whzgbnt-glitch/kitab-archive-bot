@@ -301,7 +301,8 @@
     "joemillerscomple00mill#42",
     "joemillerscomple00mill#43",
     "joemillerscomple00mill#44",
-    "joemillerscomple00mill#45"
+    "joemillerscomple00mill#45",
+    "joemillerscomple00mill#46"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -588,15 +589,16 @@
     "skippednonnarrativewhenthefirsteditionofthomsonsseasonscameout",
     "خدعةالمشنقة",
     "المشدالمبتلوالخادمالمطيع",
-    "لسانالدكتوروقرصاتجاريك"
+    "لسانالدكتوروقرصاتجاريك",
+    "حيلةالصيدلانيالذكية"
   ],
   "last_story": {
     "date": "2026-11-25",
     "identifier": "joemillerscomple00mill",
-    "story_index": 45,
-    "title": "لسان الدكتور وقرصات جاريك",
-    "key": "joemillerscomple00mill#45",
-    "title_fp": "لسانالدكتوروقرصاتجاريك"
+    "story_index": 46,
+    "title": "حيلة الصيدلاني الذكية",
+    "key": "joemillerscomple00mill#46",
+    "title_fp": "حيلةالصيدلانيالذكية"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
