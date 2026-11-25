@@ -302,7 +302,8 @@
     "joemillerscomple00mill#43",
     "joemillerscomple00mill#44",
     "joemillerscomple00mill#45",
-    "joemillerscomple00mill#46"
+    "joemillerscomple00mill#46",
+    "joemillerscomple00mill#47"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -590,15 +591,16 @@
     "خدعةالمشنقة",
     "المشدالمبتلوالخادمالمطيع",
     "لسانالدكتوروقرصاتجاريك",
-    "حيلةالصيدلانيالذكية"
+    "حيلةالصيدلانيالذكية",
+    "نوادرداربيلوجانوطرائفالمجالسوالمحاكم"
   ],
   "last_story": {
     "date": "2026-11-25",
     "identifier": "joemillerscomple00mill",
-    "story_index": 46,
-    "title": "حيلة الصيدلاني الذكية",
-    "key": "joemillerscomple00mill#46",
-    "title_fp": "حيلةالصيدلانيالذكية"
+    "story_index": 47,
+    "title": "نوادر داربي لوجان وطرائف المجالس والمحاكم",
+    "key": "joemillerscomple00mill#47",
+    "title_fp": "نوادرداربيلوجانوطرائفالمجالسوالمحاكم"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
