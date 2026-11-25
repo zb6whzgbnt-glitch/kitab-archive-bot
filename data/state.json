@@ -303,7 +303,8 @@
     "joemillerscomple00mill#44",
     "joemillerscomple00mill#45",
     "joemillerscomple00mill#46",
-    "joemillerscomple00mill#47"
+    "joemillerscomple00mill#47",
+    "joemillerscomple00mill#48"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -592,15 +593,16 @@
     "المشدالمبتلوالخادمالمطيع",
     "لسانالدكتوروقرصاتجاريك",
     "حيلةالصيدلانيالذكية",
-    "نوادرداربيلوجانوطرائفالمجالسوالمحاكم"
+    "نوادرداربيلوجانوطرائفالمجالسوالمحاكم",
+    "الزوجةالشحنة"
   ],
   "last_story": {
     "date": "2026-11-25",
     "identifier": "joemillerscomple00mill",
-    "story_index": 47,
-    "title": "نوادر داربي لوجان وطرائف المجالس والمحاكم",
-    "key": "joemillerscomple00mill#47",
-    "title_fp": "نوادرداربيلوجانوطرائفالمجالسوالمحاكم"
+    "story_index": 48,
+    "title": "الزوجة الشحنة",
+    "key": "joemillerscomple00mill#48",
+    "title_fp": "الزوجةالشحنة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
