@@ -304,7 +304,8 @@
     "joemillerscomple00mill#45",
     "joemillerscomple00mill#46",
     "joemillerscomple00mill#47",
-    "joemillerscomple00mill#48"
+    "joemillerscomple00mill#48",
+    "joemillerscomple00mill#49"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -594,15 +595,16 @@
     "لسانالدكتوروقرصاتجاريك",
     "حيلةالصيدلانيالذكية",
     "نوادرداربيلوجانوطرائفالمجالسوالمحاكم",
-    "الزوجةالشحنة"
+    "الزوجةالشحنة",
+    "التاجروالضمانالطبي"
   ],
   "last_story": {
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "identifier": "joemillerscomple00mill",
-    "story_index": 48,
-    "title": "الزوجة الشحنة",
-    "key": "joemillerscomple00mill#48",
-    "title_fp": "الزوجةالشحنة"
+    "story_index": 49,
+    "title": "التاجر والضمان الطبي",
+    "key": "joemillerscomple00mill#49",
+    "title_fp": "التاجروالضمانالطبي"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
