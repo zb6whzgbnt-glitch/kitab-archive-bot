@@ -308,7 +308,8 @@
     "joemillerscomple00mill#49",
     "joemillerscomple00mill#50",
     "joemillerscomple00mill#51",
-    "joemillerscomple00mill#52"
+    "joemillerscomple00mill#52",
+    "joemillerscomple00mill#53"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -602,15 +603,16 @@
     "التاجروالضمانالطبي",
     "خنزيرةديفيدالسكيرة",
     "دقةالموعدوبطةسكوت",
-    "الامبراطورواللصوصالطماعون"
+    "الامبراطورواللصوصالطماعون",
+    "بوقالإمبراطورواللصوصالأربعة"
   ],
   "last_story": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "identifier": "joemillerscomple00mill",
-    "story_index": 52,
-    "title": "الامبراطور واللصوص الطماعون",
-    "key": "joemillerscomple00mill#52",
-    "title_fp": "الامبراطورواللصوصالطماعون"
+    "story_index": 53,
+    "title": "بوق الإمبراطور واللصوص الأربعة",
+    "key": "joemillerscomple00mill#53",
+    "title_fp": "بوقالإمبراطورواللصوصالأربعة"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
