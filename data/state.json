@@ -310,7 +310,8 @@
     "joemillerscomple00mill#51",
     "joemillerscomple00mill#52",
     "joemillerscomple00mill#53",
-    "joemillerscomple00mill#54"
+    "joemillerscomple00mill#54",
+    "joemillerscomple00mill#55"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -606,15 +607,16 @@
     "دقةالموعدوبطةسكوت",
     "الامبراطورواللصوصالطماعون",
     "بوقالإمبراطورواللصوصالأربعة",
-    "شجاعةإليزابيث"
+    "شجاعةإليزابيث",
+    "ضبابواعتراف"
   ],
   "last_story": {
     "date": "2026-11-27",
     "identifier": "joemillerscomple00mill",
-    "story_index": 54,
-    "title": "شجاعة إليزابيث",
-    "key": "joemillerscomple00mill#54",
-    "title_fp": "شجاعةإليزابيث"
+    "story_index": 55,
+    "title": "ضباب واعتراف",
+    "key": "joemillerscomple00mill#55",
+    "title_fp": "ضبابواعتراف"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
