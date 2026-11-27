@@ -309,7 +309,8 @@
     "joemillerscomple00mill#50",
     "joemillerscomple00mill#51",
     "joemillerscomple00mill#52",
-    "joemillerscomple00mill#53"
+    "joemillerscomple00mill#53",
+    "joemillerscomple00mill#54"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -604,15 +605,16 @@
     "خنزيرةديفيدالسكيرة",
     "دقةالموعدوبطةسكوت",
     "الامبراطورواللصوصالطماعون",
-    "بوقالإمبراطورواللصوصالأربعة"
+    "بوقالإمبراطورواللصوصالأربعة",
+    "شجاعةإليزابيث"
   ],
   "last_story": {
     "date": "2026-11-27",
     "identifier": "joemillerscomple00mill",
-    "story_index": 53,
-    "title": "بوق الإمبراطور واللصوص الأربعة",
-    "key": "joemillerscomple00mill#53",
-    "title_fp": "بوقالإمبراطورواللصوصالأربعة"
+    "story_index": 54,
+    "title": "شجاعة إليزابيث",
+    "key": "joemillerscomple00mill#54",
+    "title_fp": "شجاعةإليزابيث"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
