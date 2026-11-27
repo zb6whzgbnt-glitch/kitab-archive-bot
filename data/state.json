@@ -312,7 +312,8 @@
     "joemillerscomple00mill#53",
     "joemillerscomple00mill#54",
     "joemillerscomple00mill#55",
-    "joemillerscomple00mill#56"
+    "joemillerscomple00mill#56",
+    "joemillerscomple00mill#57"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -610,15 +611,16 @@
     "بوقالإمبراطورواللصوصالأربعة",
     "شجاعةإليزابيث",
     "ضبابواعتراف",
-    "دعابةالفخاريوملاكالطريق"
+    "دعابةالفخاريوملاكالطريق",
+    "فداءالنبيل"
   ],
   "last_story": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "identifier": "joemillerscomple00mill",
-    "story_index": 56,
-    "title": "دعابة الفخاري وملاك الطريق",
-    "key": "joemillerscomple00mill#56",
-    "title_fp": "دعابةالفخاريوملاكالطريق"
+    "story_index": 57,
+    "title": "فداء النبيل",
+    "key": "joemillerscomple00mill#57",
+    "title_fp": "فداءالنبيل"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
