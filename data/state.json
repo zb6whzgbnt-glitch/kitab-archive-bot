@@ -313,7 +313,8 @@
     "joemillerscomple00mill#54",
     "joemillerscomple00mill#55",
     "joemillerscomple00mill#56",
-    "joemillerscomple00mill#57"
+    "joemillerscomple00mill#57",
+    "joemillerscomple00mill#58"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -612,15 +613,16 @@
     "شجاعةإليزابيث",
     "ضبابواعتراف",
     "دعابةالفخاريوملاكالطريق",
-    "فداءالنبيل"
+    "فداءالنبيل",
+    "أذناللصوعقدالنبيل"
   ],
   "last_story": {
     "date": "2026-11-28",
     "identifier": "joemillerscomple00mill",
-    "story_index": 57,
-    "title": "فداء النبيل",
-    "key": "joemillerscomple00mill#57",
-    "title_fp": "فداءالنبيل"
+    "story_index": 58,
+    "title": "أذن اللص وعقد النبيل",
+    "key": "joemillerscomple00mill#58",
+    "title_fp": "أذناللصوعقدالنبيل"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
