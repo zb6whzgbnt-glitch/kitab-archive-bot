@@ -314,7 +314,8 @@
     "joemillerscomple00mill#55",
     "joemillerscomple00mill#56",
     "joemillerscomple00mill#57",
-    "joemillerscomple00mill#58"
+    "joemillerscomple00mill#58",
+    "joemillerscomple00mill#59"
   ],
   "used_titles": [
     "الرسامالأبيوالدوقالمتكبر",
@@ -614,15 +615,16 @@
     "ضبابواعتراف",
     "دعابةالفخاريوملاكالطريق",
     "فداءالنبيل",
-    "أذناللصوعقدالنبيل"
+    "أذناللصوعقدالنبيل",
+    "ملكالدواجنوترجمانالجان"
   ],
   "last_story": {
     "date": "2026-11-28",
     "identifier": "joemillerscomple00mill",
-    "story_index": 58,
-    "title": "أذن اللص وعقد النبيل",
-    "key": "joemillerscomple00mill#58",
-    "title_fp": "أذناللصوعقدالنبيل"
+    "story_index": 59,
+    "title": "ملك الدواجن وترجمان الجان",
+    "key": "joemillerscomple00mill#59",
+    "title_fp": "ملكالدواجنوترجمانالجان"
   },
   "language_cycle_index": 0,
   "fish_voice_gender": "male",
